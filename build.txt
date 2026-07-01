@@ -1,0 +1,8 @@
+displayName = Ragnarok of Redemption
+author = Mr Puzzles
+version = 0.1
+modReferences = InfernalEclipseAPI, Redemption
+weakReferences = RedemptionBardHealer, ContinentOfJourney, CalamityBardHealer, InfernalEclipseWeaponsDLC, ThoriumMod, SOTS, HomewardRagnarok, CalamityMod, CalamitySimpleWhipAddon
+sortAfter = CalamityMod, InfernumMode, ThoriumMod, CalamityHunt, Clamity, CatalystMod, InfernumMode, Consolaria, SOTS, SOTSBardHealer, CalamityBardHealer, WHummusCalamityThoriumBalancing, RedemptionBardHealer, ContinentOfJourney, InfernalEclipseWeaponsDLC
+hideCode = true
+hideResources = true

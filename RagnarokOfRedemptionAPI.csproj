@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<!-- General -->
+	<PropertyGroup>
+		<Platforms>AnyCPU;x64</Platforms>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+	</PropertyGroup>
+	<ItemGroup>
+	  <AdditionalFiles Remove="Content\InfernumBehaviorOverrides\**" />
+	  <Compile Remove="Content\InfernumBehaviorOverrides\**" />
+	  <EmbeddedResource Remove="Content\InfernumBehaviorOverrides\**" />
+	  <None Remove="Content\InfernumBehaviorOverrides\**" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Assets\Sounds\Custom\TerraBlade\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="Content\Cooldowns\LucidRetaliation.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MonoMod" Version="22.7.31.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="CalamityHunt">
+		  <HintPath>..\ModAssemblies\CalamityHunt_v1.1.9.dll</HintPath>
+		</Reference>
+		<Reference Include="CalamityMod">
+		  <HintPath>..\ModAssemblies\CalamityMod_v2.1.2.dll</HintPath>
+		</Reference>
+		<Reference Include="CatalystMod">
+		  <HintPath>..\ModAssemblies\CatalystMod_v1.1.5.dll</HintPath>
+		</Reference>
+		<Reference Include="Clamity">
+		  <HintPath>..\ModAssemblies\Clamity_v1.0.3.14.dll</HintPath>
+		</Reference>
+		<Reference Include="Consolaria">
+			<HintPath>..\ModAssemblies\Consolaria_v2.1.3.5.dll</HintPath>
+		</Reference>
+		<Reference Include="Daybreak">
+			<HintPath>..\ModAssemblies\Daybreak_v2.3.1.dll</HintPath>
+		</Reference>
+		<Reference Include="FargowiltasSouls">
+			<HintPath>..\ModAssemblies\FargowiltasSouls_v1.7.3.6.dll</HintPath>
+		</Reference>
+		<Reference Include="InfernalEclipseWeaponsDLC">
+		  <HintPath>lib\Assemblies\InfernalEclipseWeaponsDLC.dll</HintPath>
+		</Reference>
+		<Reference Include="InfernumMasterPatch">
+		  <HintPath>lib\Assemblies\InfernumMasterPatch.dll</HintPath>
+		</Reference>
+		<Reference Include="InfernumMode">
+		  <HintPath>..\ModAssemblies\InfernumMode_v2.0.1.26.dll</HintPath>
+		</Reference>
+		<Reference Include="Luminance">
+			<HintPath>..\ModAssemblies\Luminance_v1.0.13.dll</HintPath>
+		</Reference>
+		<Reference Include="MMHOOK_CalamityMod_v2.0.5">
+			<HintPath>lib\MMHOOK_CalamityMod_v2.0.5.dll</HintPath>
+		</Reference>
+		<Reference Include="MMHOOK_InfernumMode_v2.0.1.19">
+			<HintPath>lib\MMHOOK_InfernumMode_v2.0.1.19.dll</HintPath>
+		</Reference>
+		<Reference Include="NoxusBoss">
+			<HintPath>..\ModAssemblies\NoxusBoss_v1.2.30.dll</HintPath>
+		</Reference>
+		<Reference Include="RagnarokMod">
+		  <HintPath>lib\Assemblies\RagnarokMod.dll</HintPath>
+		</Reference>
+		<Reference Include="RevengeancePlus">
+			<HintPath>..\ModAssemblies\RevengeancePlus_v0.5.dll</HintPath>
+		</Reference>
+		<Reference Include="SOTSBardHealer">
+			<HintPath>..\ModAssemblies\SOTSBardHealer_v0.3.0.dll</HintPath>
+		</Reference>
+		<Reference Include="SOTS">
+		  <HintPath>..\ModAssemblies\SOTS_v0.25.1.6.dll</HintPath>
+		</Reference>
+		<Reference Include="SubworldLibrary">
+			<HintPath>..\ModAssemblies\SubworldLibrary_v2.2.3.3.dll</HintPath>
+		</Reference>
+		<Reference Include="ThoriumMod">
+		  <HintPath>lib\Assemblies\ThoriumMod.dll</HintPath>
+		</Reference>
+		<Reference Include="ThoriumRework">
+		  <HintPath>..\ModAssemblies\ThoriumRework_v1.3.3.dll</HintPath>
+		</Reference>
+		<Reference Include="ThrowerUnification">
+		  <HintPath>lib\Assemblies\ThrowerUnification.dll</HintPath>
+		</Reference>
+		<Reference Include="YouBoss">
+			<HintPath>..\ModAssemblies\YouBoss_v1.0.14.dll</HintPath>
+		</Reference>
+		<Reference Include="MonoMod.RuntimeDetour" />
+		<Reference Include="MonoMod.Cil" />
+	</ItemGroup>
+
+	<!-- References -->
+
+</Project>

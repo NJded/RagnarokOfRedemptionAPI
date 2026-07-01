@@ -1,0 +1,26 @@
+Ragnarok of Redemption addon to Infernal Eclipse of Ragnarok.
+
+The official DLC for Infernal Eclipse of Ragnarok, adding compatibility with Mod of Redemption.
+
+Adds compatibility for mods such as:
+Mod of Redemption
+Calamity
+Thorium
+
+Adds minor compatibility for mods such as:
+Secrets of the Shadows
+Homeward Ragnarok
+
+This mod does NOT support multiplayer, but this will be fixed with future Mod of Redemption updates.
+
+Useful links:
+Discord - https://discord.gg/GafwxXN5d
+Wiki - https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok
+
+Special thanks to the Infernal Eclipse of Ragnarok Team and Mod of Redemption Devs.
+
+Created by MrPuzzles
+Code help: Kes
+Ideas: IceSpider, Arkangel, Cheesenuggets
+Lore writing: Targetson
+Tester: Icejuik
