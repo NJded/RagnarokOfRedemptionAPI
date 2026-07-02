@@ -1,0 +1,37 @@
+[h1]蚀光救赎[/h1]
+[h2]诸神黄昏：炼狱蚀光-救赎扩展[/h2]
+
+本模组是[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686]诸神黄昏：炼狱蚀光[/url]的官方DLC
+它为[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3456517686]诸神黄昏：炼狱蚀光[/url]与[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893332653]救赎[/url]两个模组之间提供了兼容性支持
+
+已联动的模组：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2893332653]救赎[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072]灾厄[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]瑟银[/url]
+[/list]
+联动但兼容内容较少的模组：
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2843112914]暗影奥秘[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3557455275]旅人黄昏[/url]
+[/list]
+
+本模组[b]不[/b]支持多人模式，由于救赎本身的限制，但预计会在未来随着救赎的更新修复.
+
+相关链接：
+[list]
+[*] [url=https://discord.gg/GafwxXN5d]Discord服务器[/url]
+[*] [url=https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok/zh]诸神黄昏：炼狱蚀光中文维基[/url]
+[*] [url=https://qm.qq.com/q/aKCDyrHeaA]中文讨论群[/url]
+[/list]
+
+特别感谢诸神黄昏：炼狱蚀光团队，以及救赎模组的开发者们！
+
+[list]
+作者：MrPuzzles
+程序：Kes
+设计：IceSpider, Arkangel, Cheesenuggets
+传说撰写：Targetson
+测试：Icejuik
+汉化：Pudd1ng
+[/list]
