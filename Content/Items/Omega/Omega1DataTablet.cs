@@ -8,6 +8,7 @@ using Redemption.Items.Weapons.HM.Magic;
 using Redemption.Items.Usable;
 using Redemption.Items.Materials.HM;
 using Redemption.Tiles.Furniture.Lab;
+using Redemption.Items.Weapons.HM.Summon;
 
 namespace RagnarokOfRedemptionAPI.Content.Items.Omega
 {
@@ -21,7 +22,8 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
             {
                 nameof(TinyCleaver),
                 nameof(PulseBlade),
-                nameof(CorruptedDoubleRifle)
+                nameof(CorruptedDoubleRifle),
+				nameof(CorruptedSentryBase)
             };
         }
     }
