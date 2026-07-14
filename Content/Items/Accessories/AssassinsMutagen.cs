@@ -6,7 +6,6 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Accessories
 {
     public class AssassinsMutagen : ModItem
     {
-
         public override bool IsLoadingEnabled(Mod mod)
         {
             return ModLoader.HasMod("Redemption") &&
@@ -28,6 +27,36 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Accessories
         {
             player.GetDamage(DamageClass.Generic) += 0.25f;
             player.GetCritChance(DamageClass.Generic) += 0.15f;
+
+            if (ModLoader.TryGetMod("ThoriumMod", out Mod thorium))
+            {
+                try
+                {
+                    var thoriumPlayerType = thorium.GetType().Assembly.GetType("ThoriumMod.ThoriumPlayer");
+                    if (thoriumPlayerType != null)
+                    {
+                        var modPlayersField = typeof(Player).GetField("modPlayers", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                        if (modPlayersField != null)
+                        {
+                            var modPlayers = (System.Collections.Generic.List<ModPlayer>)modPlayersField.GetValue(player);
+                            foreach (var modPlayer in modPlayers)
+                            {
+                                if (modPlayer.GetType() == thoriumPlayerType)
+                                {
+                                    var techPointsMaxField = thoriumPlayerType.GetField("techPointsMax", System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Instance);
+                                    if (techPointsMaxField != null)
+                                    {
+                                        int currentMax = (int)techPointsMaxField.GetValue(modPlayer);
+                                        techPointsMaxField.SetValue(modPlayer, currentMax + 1);
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+                catch { }
+            }
         }
 
         public override void AddRecipes()
