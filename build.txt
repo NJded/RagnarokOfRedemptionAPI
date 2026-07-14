@@ -1,10 +1,10 @@
-displayName = MoR Elemental Damage Cross Mod
-author = MrPuzzles
-version = 0.1
-modReferences = Redemption
-weakReferences = RedemptionBardHealer, ContinentOfJourney, CalamityBardHealer, InfernalEclipseWeaponsDLC, ThoriumMod, SOTS, CalamityMod, CalamitySimpleWhipAddon, CalamityHunt, InfernumMode, Clamity
+displayName = Ragnarok of Redemption
+author = Mr Puzzles
+version = 0.2
+modReferences = InfernalEclipseAPI, Redemption
+weakReferences = RedemptionBardHealer, ContinentOfJourney, CalamityBardHealer, InfernalEclipseWeaponsDLC, ThoriumMod, SOTS, HomewardRagnarok, CalamityMod, CalamitySimpleWhipAddon
 homepage = https://discord.gg/fV3QDkG22b
-sortAfter = CalamityMod, ThoriumMod, CalamityHunt, Clamity, CatalystMod, InfernumMode, Consolaria, SOTS, SOTSBardHealer, CalamityBardHealer, WHummusCalamityThoriumBalancing, RedemptionBardHealer, ContinentOfJourney, InfernalEclipseWeaponsDLC
+sortAfter = CalamityMod, InfernumMode, ThoriumMod, CalamityHunt, Clamity, CatalystMod, InfernumMode, Consolaria, SOTS, SOTSBardHealer, CalamityBardHealer, WHummusCalamityThoriumBalancing, RedemptionBardHealer, ContinentOfJourney, InfernalEclipseWeaponsDLC
 hideCode = true
 hideResources = true
-buildIgnore .vs\*, Properties\*, *.csproj, obj\*, bin\*, .git\*, .gitignore,
+buildIgnore = .vs\*, Properties\*, *.csproj, obj\*, bin\*, .git\*, .gitignore, .gitattributes, ChangeLog\*
