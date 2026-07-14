@@ -32,12 +32,12 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Accessories
         {
             Mod redemption = ModLoader.GetMod("Redemption");
             Mod continent = ModLoader.GetMod("ContinentOfJourney");
-            Mod homeward = ModLoader.GetMod("HomewardRagnarok");
+            Mod calamity = ModLoader.GetMod("CalamityMod");
 
             int mutagenType = redemption.Find<ModItem>("MutagenMagic").Type;
             int badgeType = continent.Find<ModItem>("ArchmageBadge").Type;
             int crownType = continent.Find<ModItem>("WillToCrown").Type;
-            int tileType = homeward.Find<ModTile>("TimelessFountainTile").Type;
+            int tileType = calamity.Find<ModTile>("CosmicAnvil").Type;
 
             CreateRecipe()
                 .AddIngredient(mutagenType)
