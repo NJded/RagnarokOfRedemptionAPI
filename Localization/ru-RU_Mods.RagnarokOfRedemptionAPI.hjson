@@ -1,536 +1,594 @@
 Items: {
 	ArchmageMutagen: {
-		DisplayName: Archmage Mutagen
-		Tooltip: Increases magic damage by 25% and magic critical strike chance by 15%
+		DisplayName: Мутаген великого мага
+		Tooltip:
+			'''
+			Увеличивает магический урон на 25% 
+			Увеличивает шанс магического критического урона на 15%
+			'''
 	}
 
 	AssassinsMutagen: {
-		DisplayName: Assassins Mutagen
-		Tooltip: Increases throwing damage by 25% and throwing critical strike chance by 15%
+		DisplayName: Мутаген ассасина
+		Tooltip:
+			'''
+			Увеличивает метательный урон на 25% 
+			Увеличивает метательного критического удара на 15%
+			Увеличивает максимальное число очков техники на 1
+			'''
 	}
 
 	BullseyeMutagen: {
-		DisplayName: Bullseye Mutagen
-		Tooltip: Increases ranged damage by 25% and ranged critical strike chance by 15%
+		DisplayName: Мутаген меткого стрелка
+		Tooltip:
+			'''
+			Увеличивает стрелковый урон на 25%
+			Увеличивает стрелковый шанс критического удара на 15%
+			'''
 	}
 
 	CounsellorMutagen: {
-		DisplayName: Counsellor Mutagen
-		Tooltip: Increases summon damage by 25% and minion critical strike chance by 15%
+		DisplayName: Мутаген советника
+		Tooltip:
+			'''
+			Увеличивает урон призывателя на 25%
+			Позволяет миньонам наносить критический урон с шансом 5%
+			Увеличивает дальность хлыстов на 15%
+			'''
 	}
 
 	MaestroMutagen: {
-		DisplayName: Maestro Mutagen
-		Tooltip: Increases symphonic damage by 25% and symphonic critical strike chance by 15%
+		DisplayName: Мутаген маэстро
+		Tooltip:
+			'''
+			Увеличивает симфонический урон на 25%
+			Увеличивает шанс симфонического критического урона на 15%
+			Увеличивает максимальный запас вдохновения на 5
+			'''
 	}
 
 	PriestsMutagen: {
-		DisplayName: Priests Mutagen
-		Tooltip: Increases radiant damage by 25% and radiant critical strike chance by 15%
+		DisplayName: Мутаген святого
+		Tooltip:
+			'''
+			Увеличивает лучезарный урон на 25%
+			Увеличивает шанс лучезарного критического урона на 15%
+			Исцеляющие заклинания восстанавливают дополнительно 5 здоровья
+			'''
 	}
 
 	SwordmasterMutagen: {
-		DisplayName: Swordmaster Mutagen
-		Tooltip: Increases melee damage by 25% and melee critical strike chance by 15%
+		DisplayName: Мутаген фехтовальщика
+		Tooltip:
+			'''
+			Увеличивает урон ближнего боя на 25%
+			Увеличивает шанс критического удара ближнего боя на 15%
+			'''
 	}
 
 	AkkaRelic: {
-		DisplayName: Infernal Akka Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Акки
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	BasanRelic: {
-		DisplayName: Infernal Basan Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Басана
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	CalaviaRelic: {
-		DisplayName: Infernal Calavia Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Калавии
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	CockatriceRelic: {
-		DisplayName: Infernal Cockatrice Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Кокатрикса
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	EaglecrestGolemRelic: {
-		DisplayName: Infernal Eaglecrest Golem Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Голема Клювогорья
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	ErhanRelic: {
-		DisplayName: Infernal Erhan Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Эрхана
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	FowlEmperorRelic: {
-		DisplayName: Infernal Fowl Emperor Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Кудашного императора
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	KeeperRelic: {
-		DisplayName: Infernal Keeper Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Хранительницы
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	KingSlayerIIIRelic: {
-		DisplayName: Infernal King Slayer III Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Короля-охотника III
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	NebuleusRelic: {
-		DisplayName: Infernal Nebuleus Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Небулеус
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	OmegaCleaverRelic: {
-		DisplayName: Infernal Omega Cleaver Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Омега-Двуручника
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	OmegaGigaporaRelic: {
-		DisplayName: Infernal Omega Gigapora Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Омега-Гигасверла
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	OmegaObliteratorRelic: {
-		DisplayName: Infernal Omega Obliterator Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Омега-Облитератора
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	PatientZeroRelic: {
-		DisplayName: Infernal Patient Zero Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Нулевого пациента
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	SeedofInfectionRelic: {
-		DisplayName: Infernal Seed of Infection Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Семени инфекции
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	SkullDiggerRelic: {
-		DisplayName: Infernal Skull Digger Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Череполицего землекопа
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	ThornRelic: {
-		DisplayName: Infernal Thorn Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Тёрна
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	UkkoRelic: {
-		DisplayName: Infernal Ukko Relic
-		Tooltip: Inbued with the infernal flames of a defeated foe
+		DisplayName: Инфернальная реликвия Укко
+		Tooltip: Окружено инфернальными огнями поверженного врага
 	}
 
 	BurningGrace: {
-		DisplayName: Burning Grace
+		DisplayName: Пылающая благодать
 		Tooltip:
 			'''
-			8% increased healing speed
-			12% increased Holy elemental damage and resistance
-			6% increased Holy and Fire elemental critical strike chance
-			Stacks if both elements are present
-			Healing an ally increases their life regeneration and regeneration rate
-			Healing spells will increase the healed targets defense by 14 for 20 seconds
-			Critical strikes with a Holy elemental weapon or using healing tools has a chance to release homing lightmass
-			An aura of holy flames surrounds you while holding a Fire or Holy elemental weapon
-			Aura is empowered while holding a Healer tool
-			Increases length of invincibility after taking damage
+			Увеличивает скорость лечения на 8%
+			Увеличивает урон и сопротивление {0} на 12%
+			Увеличивает шанс критического удара {0} и {1} на 6%
+			Эффекты суммируются при наличии обоих элементов
+			Лечение союзника значительно увеличивает его регенерацию здоровья
+			Исцеляющие заклинания увеличивают защиту исцеляемой цели на 14 единиц в течение 20 секунд
+			Критические удары элементальным оружием {0} могут высвободить самонаводящуюся светомассу
+			При использовании элементального оружия {1} или {0} вас окружает аура священного пламени
+			Аура усиливается при использовании оружий целителя
+			Увеличивает длительность неуязвимости после получения урона
 			'''
 	}
 
 	AmbrosialAmpoule.ExtraTooltip:
 		'''
-		Friendly blue flies will occasionally appear to protect you
-		Any flies that target you will transform into blue flies
-		Critters are attracted to you and shy critters won't fear you
-		Bees and Spider Swarmers become passive
-		Grants immunity to Webbed
+		Время от времени рядом с вами будут появляться дружелюбные синие мухи, которые будут вас защищать
+		Любые мухи, нападающие на вас, превращаются в синих
+		Вы привлекаете живность, а пугливая живность больше не боится вас
+		Пчёлы становятся пассивными
+		Роевые пауки становятся пассивными
+		Даёт невосприимчивость к дебаффу «Паутина»
 		'''
 
 	NanoCore: {
-		DisplayName: Nano Core
+		DisplayName: Нано-ядро
 		Tooltip:
 			'''
-			Creates a nanoshield around the wearer:
-			Increases max movement speed and acceleration while underwater
-			Grants the ability to swim, extends underwater breathing, emits light underwater, and improves mobility on ice
-			Provides a moderate amount of light, reduces breath loss, and reduces damage caused by drowning in the abyss
-			Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
-			Grants immunity to the Abandoned Lab, Wasteland and Sulfurous water
-			Grants immunity to [cbuff:CalamityMod/CrushDepth] , [cbuff:Redemption/RadioactiveFalloutDebuff] and all infection debuffs
-			Grants resistance to the increased breath loss caused by [cbuff:CalamityMod/HadopelagicPressure]
-			Grants protection against up radiation protection
+			Превращает владельца в бронированного водолаза:
+			Увеличивает максимальную скорость передвижения и ускорение под водой
+			Позволяет плавать, увеличивает запас воздуха под водой, излучает свет под водой и увеличивает подвижность на льду
+			Излучает умеренное количество света, снижает расход воздуха и урон от удушья в бездне
+			Делает вас менее заметным для существ бездны, смягчает снижение защиты, вызванное бездной, и позволяет быстрее погружаться в жидкости
+			Даёт невосприимчивость к водам заброшенной лаборатории , пустоши и сернистых вод
+			Даёт невосприимчивость к дебаффам [cbuff:CalamityMod/CrushDepth] , [cbuff:Redemption/RadioactiveFalloutDebuff] и всем дебаффам заражения
+			Даёт устойчивость к увеличенной потере воздуха, вызванной дебаффом [cbuff:CalamityMod/HadopelagicPressure]
+			Даёт защиту от радиации высокого уровня
 			'''
 	}
 
 	GirusDecoder: {
-		DisplayName: Girus Decoder
+		DisplayName: Декодер Гирус
 		Tooltip:
 			'''
-			Can be placed on the Codebreaker
-			Allows you to decrypt the Omega Data Tablet
-			Doing so allows you to learn how to craft new things
+			Можно установить на Дешифратор
+			Позволяет расшифровать Омега-планшеты
+			После дешифровки вы узнаете, как создавать новые предметы
 			'''
 	}
 
 	Omega1DataTablet: {
-		DisplayName: Omega Data Tablet 1
-		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		DisplayName: Омега-планшет I
+		Tooltip: Для расшифровки требуется Дешифратор с декодером Гирус
+		Decrypted: Уже расшифровано
+		UnlockedRecipes: Разблокированные рецепты:
 
 		Weapon: {
-			TinyCleaver: Tiny Cleaver
-			PulseBlade: Pulse Blade
-			CorruptedDoubleRifle: Corrupted Double Rifle
+			TinyCleaver: Крошечный рассекатель
+			PulseBlade: Импульсный клинок
+			CorruptedDoubleRifle: Осквернённая двустволка
+			CorruptedSentryBase: Стойка омега-стража
 		}
 	}
 
 	Omega2DataTablet: {
-		DisplayName: Omega Data Tablet 2
-		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		DisplayName: Омега-планшет II
+		Tooltip: Для расшифровки требуется Дешифратор с декодером Гирус
+		Decrypted: Уже расшифровано
+		UnlockedRecipes: Разблокированные рецепты:
 
 		Weapon: {
-			CorruptedDAN: Corrupted D.A.N
-			DrillRevolver: Drill Revolver
-			GigapeiliContactor: Gigapeili Contactor
-			OmegaPickaxe: Omega Pickaxe
-			OversizedScrewdriver: Oversized Screwdriver
-			Shockriken: Shockriken
-			VlitchSynthesizer: Vlitch Synthesizer
-			KillswitchEngineer: Killswitch Engineer
+			CorruptedDAN: Осквернённый Д.Э.Н
+			DrillRevolver: Буровой револьвер
+			GigapeiliContactor: Гигазеркальный соприкасатель
+			OmegaPickaxe: Омега-кирка
+			OversizedScrewdriver: Крупногабаритная отвёртка
+			Shockriken: Шокрикен
+			VlitchSynthesizer: Глючный синтезатор
+			KillswitchEngineer: Аварийный выключатель
 		}
 	}
 
 	Omega3DataTablet: {
-		DisplayName: Omega Data Tablet 3
-		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		DisplayName: Омега-планшет III
+		Tooltip: Для расшифровки требуется Дешифратор с декодером Гирус
+		Decrypted: Уже расшифровано
+		UnlockedRecipes: Разблокированные рецепты:
 
 		Weapon: {
-			SunInThePalm: Sun In The Palm
-			OOFingergun: Omega Finger Gun
-			BlastBattery: Blast Battery
-			ScorchingScalpel: Scorching Scalpel
-			Oboeterator: Oboeterator
-			OmegaDefibrillator: Omega Defibrillator
+			SunInThePalm: Карманное светило
+			OOFingergun: Омега-пальцестрел
+			BlastBattery: Взрывной аккумулятор
+			ScorchingScalpel: Раскаленный скальпель
+			Oboeterator: Обоэтератор
+			OmegaDefibrillator: Омега дефибриллятор
 		}
 	}
 
 	Lore: {
 		FowlEmperorLore: {
-			DisplayName: Fowl Emperor
+			DisplayName: Кудашный император
 			Tooltip: ""
 			Lore:
 				'''
-				I have traveled far in my conquest against the gods who call this world home.
-				I have faced down both tricksters and murderers alike, from self-appointed righteous heroes to openly sadistic tyrants.
-				Through this, I have faced warriors, beasts, demons, and all sorts. There is very little I haven’t experienced in this life.
-				All of this is to say…
-				WHAT!?
+				Я проделал долгий путь в своих завоеваниях против богов, которые называют этот мир своим домом
+				Я противостоял как обманщикам, так и убийцам, от самопровозглашенных праведников до откровенно садистских тиранов
+				В ходе этого я сталкивался с воинами, зверями, демонами и другими существами. В этой жизни я пережил очень многое
+				Всё лишь ради того, чтобы сказать...
+				ЧТО!?
 				'''
 		}
 
 		ErhanLore: {
-			DisplayName: Erhan
+			DisplayName: Эрхан
 			Tooltip: ""
 			Lore:
 				'''
-				A local priest, I assume? ‘Repent’, ‘heresy’, ‘judgement’... I’ve heard it all before.
-				You hopefully don’t need me to tell you what happened to the various churches that once lined the surface.
-				However, my reach doesn’t extend very far into those portals.
-				The knowledge to make those portals is obscure, to say the least, and you’d be hard pressed to fit an army through the few that do exist.
-				Further explanation is beyond our current perview, but I have no doubt whatever group this preacher hails from is on the other side. 
-				Certainly explains why ‘his lands’ aren’t underground
+				Пологаю, это местный священник? «Покайтесь», «суд», «ересь»... Я всё это уже слышал
+				Надеюсь, вам не нужно, чтобы я рассказывал, что случилось с многочисленными церквями, которые когда-то располагались на поверхности
+				Однако мои возможности не простираются далеко в эти порталы
+				Знания, необходимые для создания этих порталов, мягко говоря, весьма туманны, и вам будет трудно пропустить армию через те немногие, что существуют
+				Дальнейшее объяснение выходит за рамки нашего текущего разговора, но я не сомневаюсь, что группа, к которой принадлежит этот проповедник, находится по ту сторону
+				Это, безусловно, объясняет, почему «его земли» не находятся под землей
 				'''
 		}
 
 		ThornLore: {
-			DisplayName: Thorn
+			DisplayName: Тёрн
 			Tooltip: ""
 			Lore:
 				'''
-				I was wondering when someone would put this warden down.
-				Alder was the name I heard some of the “treefolk” refer to him as.
-				He, like those druids, is not native to this land, emerging from that portal on the surface.
-				It’s connected to a forested area called fairwood, and in recent years has been subject to a mass exodus in order to escape a growing blight. 
-				The rest weren’t much better, but this blighted freak is probably the worst of them, actively spreading whatever curse dwelled there. 
-				I don’t believe those refugees have any idea what they’ve walked right into…
+				Я всё думал, когда же наконец кто-нибудь прикончит этого стража
+				Я слышал, как некоторые «древесные люди» называли его Ольхой
+				Он, как и те друиды, не коренной житель этой земли, появившийся из того портала на поверхности
+				Он примыкает к лесистой местности под названием Фэйрвуд, и в последние годы там наблюдается массовый уход людей, спасающихся от нарастающей эпидемии
+				Остальные были не намного лучше, но этот мерзкий монстр, вероятно, худший из них, активно распространяющий то проклятие, которое там обитало
+				Я не думаю, что эти беженцы вообще понимают, во что они ввязались...
 				'''
 		}
 
 		TheKeeperLore: {
 			Tooltip: ""
-			DisplayName: The Keeper
+			DisplayName: Хранительница
 			Lore:
 				'''
-				Undead are commonplace no matter what part of the world you stand in.
-				The way they are raised, however, can vary greatly. 
-				In my brief studies through the portal, a common undead type occurs when a soul attempts to fuse with a vessel that isn’t its own.
-				Usually, this creates a skeleton, which you’ve seen plenty of.
-				If the soul is strong enough, pale brown flesh will form around the bone, creating what’s referred to as a fallen. 
-				That’s certainly what this is… but I’ve never seen a fallen this feral before.
-				And the way her body is mutated so severely, likely from whatever magic permeates her body… I’m genuinely curious.
-				Actually, I still have those old scout reports documenting several different fallen, including info on the lives of a few.
-				I’m certain she would’ve been noticed. Let’s see here…
+				Нежить встречается повсюду, в какой бы части мира вы ни находились
+				Однако способы её воскрешения могут сильно различаться
+				В ходе моих кратких исследований через портал я обнаружил распространённый тип нежити, когда душа пытается слиться с чужим сосудом
+				Обычно это создаёт скелет, которых ты наверняка видел
+				Если душа достаточно сильна, вокруг костей образуется бледно-коричневая плоть, создавая то, что называют падшим
+				Это, безусловно, оно... но я никогда раньше не видел такого дикого падшего
+				И то, как сильно мутировало её тело, вероятно, из-за какой-то магии, пронизывающей его... мне действительно любопытно
+				На самом деле, у меня до сих пор сохранились старые отчёты разведчиков, в которых описывались несколько разных падших, включая информацию о жизни некоторых из них
+				Я уверен, что её бы заметили. Давайте посмотрим...
 				'''
 		}
 
 		SkullDiggerLore: {
 			Tooltip: ""
-			DisplayName: Skull Digger
+			DisplayName: Череполицый землекоп
 			Lore:
 				'''
-				Another undead, with the same necromantic magic coursing through its body.
-				I’m guessing Octavia used her magic to revive him, though at this point his body has started to fade away.
-				…Ah, right. I’ve found those old fallen reports. I… believe I should read this section for you.
+				Ещё одна нежить, с той же некромантской магией, циркулирующей в его теле
+				Я предполагаю, что Октавия использовала свою магию, чтобы оживить его, хотя к этому моменту его тело начало исчезать
+				...Ах, да. Я нашёл эти старые отчёты о павших. Я... думаю, мне следует прочесть этот раздел для тебя
 
-				Subject: Octavia Von Gailon
+				Субъект: Октавия фон Гэйлон
 
-				Place of residence: Ricusa City, Ricusa - Lo Anglon
+				Место жительства: город Рикуса, Рикуса - Ло Англон
 
-				Lifespan: Approx. 26 years
+				Продолжительность жизни: около 26 лет
 
-				Occupation: Musician - Violin
+				Профессия: музыкант - скрипка
 
-				Circumstances surrounding death: Recently confirmed pregnancy. Subject had purchased a teddy bear intended for the child the previous day.
+				Обстоятельства смерти: Недавно подтвержденная беременность. Накануне субъект купила плюшевого медведя, предназначенного для ребёнка
 
-				Cause of death: Found stabbed in an alleyway. Perpetrator unknown.
+				Причина смерти: Найдена с ножевым ранением в переулке. Преступник неизвестен
 
-				…I suppose both of our worlds have a cruel sense of humor. If you could return that teddy bear back to her, I… I would appreciate that.
-				I believe she would as well.
+				...Полагаю, в наших мирах есть жестокое чувство юмора. Если бы вы могли вернуть ей этого плюшевого медведя, я… я был бы вам благодарен
+				Я думаю, она бы тоже была благодарна
 				'''
 		}
 
 		SeedofInfectionLore: {
 			Tooltip: ""
-			DisplayName: Seed of Infection
+			DisplayName: Семя инфекции
 			Lore:
 				'''
-				Liden was another world with minor connections to ours. Quite frankly, I’ve had less reason to look into it than Epidotra. 
-				The whole place is a frozen, radioactive wasteland, the likes of which . 
-				I'm led to believe its current state stems from a lab overrun by a viscous infection: Xenomite.
-				While this infected pocket wasn’t much of a threat, it wasn’t supposed to be.
-				It has already done its job of spreading the infection in that area. 
-				The only thing holding it back is the requirement of radiation in order to accelerate its growth.
-				Unless you’re planning on setting off a nuke, the symptoms should be minor to non-existent.
-				…Unless it somehow seeped into the sulphurous seas. Then it might be a problem.
-				Damn it, Draedon.
+				Лиден был другим миром, имеющим лишь незначительные связь с нашим. Честно говоря, у меня было меньше причин изучать его, чем Эпидотру
+				Всё это место - замерзшая, радиоактивная пустошь, подобная этой
+				Я полагаю, что его нынешнее состояние связано с лабораторией, захваченной склизкой инфекцией: Ксеномитом
+				Хотя этот зараженный очаг не представлял большой угрозы, он и не должен был быть ею
+				Оно уже выполнило свою задачу по распространению инфекции в этом районе
+				Единственное, что его сдерживает, - это необходимость радиации для ускорения роста
+				Если вы не планируете взорывать ядерную бомбу, симптомы должны быть незначительными или отсутствовать вовсе
+				...Если только оно не проникнет в серное море
+				Черт тебя дери, Дрэйдон
 				'''
 		}
 
 		EaglecrestGolemLore: {
 			Tooltip: ""
-			DisplayName: Eaglecrest Golem
+			DisplayName: Голем Клювогорья
 			Lore:
 				'''
-				A peace offering from Gathuram to Ithon, as I understand it.
-				Somehow, the fact it was built with inhabited stones escaped the notice of its makers before it was shipped off.
-				Especially odd given the amount of constructs they’ve made from infusing stone with human souls.
-				All magic uses the soul over there, even magical artifacts use a piece of the maker’s soul for casting. 
-				Compared to our methods, theirs is far more complex to master, so understanding is typically limited to a select few with rudimentary skills. 
-				Whatever soul is kept in this golem’s eye must be mighty to act on its own like this, more than a century after creation.
+				Насколько я понимаю, это мирное подношение от Гатурама к Итону
+				Каким-то образом тот факт, что он был построен из обитаемых камней, ускользнул от внимания его создателей до отправки
+				Особенно учитывая странное количество конструкций, которые они создали, наполнив камень человеческими душами
+				Вся их магия использует душу, даже магические артефакты используют часть души создателя для применения заклинаний
+				По сравнению с нашими методами, их методы гораздо сложнее освоить, поэтому понимание обычно ограничено немногими избранными с примитивными навыками
+				Какая бы душа ни хранилась в глазу этого голема, она должна быть могущественной, чтобы действовать самостоятельно таким образом спустя более века после сотворения мира
 				'''
 		}
 
 		CalaviaLore: {
 			Tooltip: ""
-			DisplayName: Calavia
+			DisplayName: Калавия
 			Lore:
 				'''
-				You don’t speak gathic? Seems this could have been easily avoided, but regardless. 
-				Due to the difficulty of travel between different planes, attempts at expansion across realms are often more trouble than they’re worth. 
-				As such, my expeditions into this space were more focused on avoiding conflict and gathering knowledge.
-				I had the benefit of being mostly unknown to its people, unlike here.
-				I grew a cordial relationship with a few organizations, including the Barons of Arum, which gave me access to transfers with unique expertise on soul-based magic. 
-				I immediately put it to use when I looked to power my newest soldiers.
-				Their kingdoms weren’t happy to hear what their warriors’ souls were included in… but I got what I wanted.
+				Ты не говоришь на гатическом языке? Кажется, столкновения можно было легко избежать, но тем не менее
+				Из-за сложности перемещения между различными измерениями попытки экспансии в другие миры часто приносят больше проблем, чем пользы
+				Поэтому мои экспедиции в это пространство были больше сосредоточены на избегании конфликтов и сборе знаний
+				Мне повезло быть практически неизвестным местным жителям, в отличие от этого места
+				Я установил дружеские отношения с несколькими организациями, включая баронов Арума, что дало мне доступ к трансферам с уникальным опытом в магии, основанным на душах
+				Я немедленно применил эти знания, когда искал способ усилить своих новых солдат
+				Их королевства были недовольны тем, что души их воинов оказались там... но я получил то, что хотел
 				'''
 		}
 
 		AbandonedLaboratoryLore: {
-			DisplayName: Abandoned Laboratory
+			DisplayName: Заброшенная лаборатория
 			Tooltip: ""
 			Lore:
 				'''
-				I had no interest in the apocalyptic Liden, that radioactive graveyard was no place for living beings.
-				Draedon, however, was more than willing to probe at his own discretion. 
-				I thought little of it since his output was untouched, then he showed interest in that lab.
-				He quickly penetrated the cyber security and monitored a handful of T-bots on the inside… that’s what he told me. 
-				The fact his comms were briefly active during this mission gives me reason to believe he made contact with someone through its system.
-				I never found out who or about what, the logs were never on record and Draedon has been cagey about it ever since. 
-				He would leave my service soon after, for unrelated reasons, and the thread was cut before I could look into it. 
-				It seems now, that thread is in your hands.
+				Апокалиптический Лиден не представлял для меня интереса, это радиоактивное кладбище было не местом для живых
+				Однако Дрэйдон был готов исследовать его по своему усмотрению
+				Я не придал этому особого значения, поскольку его результаты оставались нетронутыми, но затем он проявил интерес к этой лаборатории
+				Он быстро проник в систему кибербезопасности и следил за несколькими Т-ботами внутри... так он мне сказал
+				Тот факт, что его связь была кратковременно активна во время этой миссии, дает мне основания полагать, что он связался с кем-то через систему
+				Я так и не узнал, кто это был и о чём шла речь, записи не были зафиксированы, и с тех пор Дрэйдон хранит молчание по этому поводу
+				Вскоре после этого он покинул меня по несвязанным с этим причинами, и цепочка событий оборвалась, прежде чем я смог разобраться в ситуации
+				Похоже, теперь эта цепочка событий в ваших руках
 				'''
 		}
 
 		AncientDeityDuoLore: {
-			DisplayName: Ancient Deity Duo
+			DisplayName: Древний Божественный дуэт
 			Tooltip: ""
 			Lore:
 				'''
-				So, Epidotra had gods after all. 
-				One sealed in stone, the other in deep sleep.
-				Granted, I highly doubt these two stole their power like our gods,
-				as the auric souls of life and storms were already claimed.
-				Might not be gods as you and I know them, but merely magically adept.
-				I assume so, but I know nothing of who these two were in the past.
-				I could guess… but I’d prefer to know.
-				What I know is what I see: 
-				Two dead lovers.
+				Всё же, Эпидотра имела своих Божеств
+				Один запечатан в камне, другая в глубоком сне
+				Конечно, я сильно сомневаюсь, что эти двое украли свою силу, как наши боги,
+				по причине того, что ауритовые души жизни и бурь уже были присвоены
+				Возможно, это не боги в том смысле, в каком мы их знаем, а просто существа одарённые магией
+				Я так предполагаю, но не знаю о том, кем эти двое были в прошлом
+				Я мог бы догадаться... но мне бы хотелось знать наверняка
+				То что я вижу сейчас: 
+				Два мертвых влюбленных
 				'''
 		}
 
 		KingSlayerIIILore: {
-			DisplayName: King Slayer III
+			DisplayName: Король-охотник III
 			Tooltip: ""
 			Lore:
 				'''
-				An armored… human? Automaton? I’ve heard an obscene number of descriptors given to him, all with equal evidence.
-				His reputation is palpable, but word of mouth and misinformation have done a great disservice to him.
-				Some is malicious gossip, some is genuine confusion. 
-				I’ll admit, I’ve been quite unsure of this warrior ever since I first heard of him. 
-				Even more confusingly, I’ve seen ancient statues that bear his exact visage, and there are things he is reported to have said that have… existential implications.
-				Only he’d be able to clear that up, but you’d likely have to earn his favor first.
-				After an encounter like that? 
-				From personal experience, good luck.
+				Человек… в бронированном костюме? Автоматон? Я слышал невероятное количество описаний, и все они подкреплялись одинаковыми доказательствами
+				Его репутация очевидна, но слухи и дезинформация нанесли ему огромный ущерб
+				Часть - злонамеренные сплетни, часть - подлинная путаница
+				Признаюсь, я был довольно скептически настроен по отношению к этому воину с тех пор, как впервые о нём услышал
+				Ещё больше меня сбивает с толку то, что я видел древние статуи, на которых изображён его лик, и, как говорят, он говорил вещи, имеющие... экзистенциальный подтекст
+				Только он сам мог бы это прояснить, но, скорее всего, сначала вам придётся заслужить его расположение
+				После такой встречи?
+				Из личного опыта могу сказать, удачи
 				'''
 		}
 
 		ndOmegaPrototypeLore: {
-			DisplayName: 2nd Omega Prototype
+			DisplayName: Омега-прототип №2
 			Tooltip: ""
 			Lore:
 				'''
-				That confirms it.
-				I don’t know how acquainted the two are, but Draedon must’ve had input here.
-				This tunneler is modified in exactly the way he would’ve done it. I’m sure of it.
-				Not to undermine the efforts of your benefactor, of course, who clearly led its creation.
-				The armaments here are quite novel compared to my knights’. Excessive, perhaps.
-				Knowing Draedon, he likely agreed to assist for the sake of research. How much, I’m not sure.
-				No doubt he’ll look to optimize the sorry shield technology on display for himself.
-				The other one, however… I know nothing about her.
-				Expect anything.
+				Это подтверждает мои слова
+				Я не знаю, насколько хорошо они знакомы, но, должно быть, Дрэйдон принимал участие в этом
+				Этот землерой модифицирован именно так, как он бы это сделал. Я в этом не сомневаюсь
+				Конечно, это ни в коем случае не умаляет усилий вашего благодетеля, который, очевидно, руководил его созданием
+				Здесь представлено довольно новаторское вооружение по сравнению с вооружением моих солдат. Возможно, даже чрезмерное
+				Зная Драэдона, он, вероятно, согласился помочь ради исследований. Насколько именно, я не уверен
+				Без сомнения, он захочет оптимизировать представленную здесь жалкую технологию щитов для себя
+				А вот другая… я не знаю о ней ничего
+				Ожидать можно всё что угодно
 				'''
 		}
 
 		NebuleusLore: {
-			DisplayName: Nebuleus
+			DisplayName: Нубулеус
 			Tooltip: ""
 			Lore:
 				'''
-				...She approached me a few nights after you first arrived.
-				I don’t know how, but she found her way into the Dragon Aerie.
-				Despite our attempts at remaining polite, we got into an argument. 
-				I called her naive. She called me a tyrant.
-				I called her a coward. She called me conceited.
-				…She left without a fight. 
-				Truthfully, I don’t think she came here expecting to win one.
-				She left with one last word…
-				‘You saw a forest of predators and parasites.
-				The trees called for your help, so you felled the ones who pruned the vines.
-				You have none left, because their homes were lost while you weren’t looking.
-				All that are left are the beasts you claimed to be culling.’
-				…I feel like she premeditated that. Could’ve worked on it more.
-				Doesn’t make it less true.
+				...Она явилась ко мне через несколько ночей после твоего появления
+				Не знаю как, но она пробралась в Драконье Гнездовье
+				Несмотря на наши попытки оставаться вежливыми, мы поссорились
+				Я назвал её наивной. Она назвала меня тираном
+				Я назвал её трусихой. Она назвала меня самодовольным
+				...Она ушла без боя
+				Честно говоря, я не думаю, что она пришла сюда, рассчитывая на победу
+				Перед уходом она сказала свои последние слова...
+				«Ты видел лес хищников и паразитов
+				Деревья возвали к тебе за помощью, и ты срубил тех, кто обрезал лианы
+				У тебя никого не осталось, поэтому их дома были разрушены, пока ты не видел
+				Всё что осталось, это те звери, которых ты, как утверждал, истреблял»
+				...Мне кажется, она всё это спланировала заранее. Могла бы это продумать получше
+				Но от этого, её слова не перестают быть правдой
 				'''
 		}
 
 		PatientZeroLore: {
-			DisplayName: Patient Zero
+			DisplayName: Нулевой пациент
 			Tooltip: ""
 			Lore:
 				'''
-				Kari Johanson. Original creator of the T-bots. What’s left of him, anyway.
-				...Disgusting.
-				I knew Liden pursued xenomite as a potent energy source.
-				I also saw what became of that world, and knew not to follow.
-				Those alien crystals were the source of this horrific mutation, the first of the lot,
-				and 50 years later, the entire lab is a breeding ground while the surface suffered a nuclear apocalypse.
-				I’d say it has more in common with the astral infection than any disease you or I know.
-				Killing him likely slowed down its spread... for all the good that did.
-				A whole planet, wiped away because of financial interest…
-				I hope that isn’t in our future.
+				Кари Йоханнсон. Создатель оригинальных Т-ботов. То, что от него осталось, во всяком случае
+				...Отвратительно
+				Я знал, что Лиден использовал ксеномит как мощный источник энергии
+				Я также знал, что стало с этим миром, и знал, что не стоит его иследовать
+				Эти инопланетные кристаллы стали источником ужасающих мутаций, первой из них,
+				и 50 лет спустя вся лаборатория превратилась в рассадник инфекции, в то время как поверхность пережила ядерный апокалипсис
+				Я бы сказал, что у этого больше общего с астральной инфекцией, чем с любой другой болезнью, известной нам
+				Его убийство, вероятно, замедлило распространение инфекции... хотя от этого мало толку
+				Целая планета, уничтоженная из финансовых интересов…
+				Надеюсь, это не наше будущее
 				'''
 		}
 
 		rdOmegaPrototypeLore: {
-			DisplayName: 3rd Omega Prototype
+			DisplayName: Омега-прототип №3
 			Tooltip: ""
 			Lore:
 				'''
-				And here, the difference in personality is on full display.
-				No, I’m not referring to the machine’s actual personality.
-				My soldiers were weapons of war, first and foremost.
-				Frontline, backline, assault, support. There was a purpose to each.
-				This machine is a weapon and nothing else. 
-				It’s a blunt instrument built to cause as much damage as possible.
-				There’s a place for that, but not in conquest.
-				Now, I see the other end of the deal.
-				These aren’t tools built for tactical purposes, it was rage that made this.
-				Pure rage.
-				I fear an already capable mind like that picking at Draedon’s intellect.
+				И здесь разница в характерах проявляется во всей красе
+				Нет, я не имею в виду реальную суть этих машин
+				Мои солдаты были, прежде всего, оружием войны
+				Линия фронта, тыл, штурм, поддержка. У каждого из них была своя цель
+				Эта машина - оружие, и ничего больше
+				Это грубый инструмент, созданный для нанесения как можно большего ущерба
+				Для этого есть применение, но не в завоеваниях
+				Теперь я вижу другую сторону монеты
+				Это не инструменты, созданные для тактических целей, это результат ярости
+				Чистой ярость
+				Я боюсь, что такой способный ум, как этот, может способен противостоять интеллекту Дрэйдона
 				'''
 		}
 
 		stOmegaPrototypeLore: {
-			DisplayName: 1st Omega Prototype
+			DisplayName: Омега-прототип №1
 			Tooltip: ""
 			Lore:
 				'''
-				It seems whoever was at the lab has made herself known.
-				This is quite an entrance for a burgeoning inventor, albeit an impractical device. 
-				It's easy to understand why Teochrome went defunct in hindsight.
-				Sure, xenomite seems like a fine source of energy… until you notice the many caveats.
-				The fact this managed to perform on my soldiers’ level at all is praiseworthy,
-				if this prototype really was a proof of concept lying around. 
-				I might've sought out that prowess all those years back.
+				Похоже, кто бы ни был в лаборатории, он дал о себе знать
+				Это довольно впечатляющее появление для начинающего инженера, учитывая то, что это устройство весьма не практично
+				Оглядываясь назад, легко понять причину закрытия компании Теохром
+				Конечно, ксеномит кажется неплохим источником энергии... пока не покажется мжножества нюансов
+				Факт того, что это устройство показало себя на уровне моих солдат, заслуживает похвалы,
+				если этот прототип действительно был всего лишь демонстрацией чего-то, чему не нашлось применения
+				Возможно, я стремился к такому же мастерству много лет назад
 				'''
 		}
 	}
 
 	Omega3DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 3
+		DisplayName: Разбитый омега-планшет III
 	}
 
 	Omega2DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 2
+		DisplayName: Разбитый омега-планшет II
 	}
 
 	Omega1DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 1
+		DisplayName: Разбитый омега-планшет I
 	}
 }
 
-UI.Cost: Cost:
+UI.Cost: Стоимость:
 
 Buffs: {
 	BurningGraceDefenseBuff: {
-		DisplayName: Burning Grace Defense Buff
-		Description: Increase defense
+		DisplayName: Пылающая благодать
+		Description: Защита увеличена
 	}
 
 	BurningGraceRegenBuff: {
-		DisplayName: Burning Grace Regen Buff
-		Description: Increase regeneration
+		DisplayName: Пылающая благодать
+		Description: Регенерация здоровья увеличена
 	}
 }
 
-Tiles.GirusDecoderTile.MapEntry: Girus Decoder Tile
+Tiles.GirusDecoderTile.MapEntry: Декодер Гирус
 
 Conditions: {
-	OmegaTier2Decrypted: Decrypted Omega Data Tablet 2
-	OmegaTier1Decrypted: Decrypted Omega Data Tablet 1
-	OmegaTier3Decrypted: Decrypted Omega Data Tablet 3
+	OmegaLocked: {
+		Tier1:
+			'''
+			У вас недостаточно знаний для создания, этого предмета
+			Сначала необходимо расшифровать омега-планшет I
+			'''
+		Tier2:
+			'''
+			У вас недостаточно знаний для создания, этого предмета
+			Сначала необходимо расшифровать омега-планшет II
+			'''
+		Tier3:
+			'''
+			У вас недостаточно знаний для создания, этого предмета
+			Сначала необходимо расшифровать омега-планшет III
+			'''
+	}
+
+	// OmegaTier2Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier2Decrypted
+	// OmegaTier1Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier1Decrypted
+	// OmegaTier3Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier3Decrypted
 }
 
 Messages: {
-	OmegaTier1Decrypted: Omega Data Tablet 1 decrypted!
-	OmegaTier2Decrypted: Omega Data Tablet 2 decrypted!
-	OmegaTier3Decrypted: Omega Data Tablet 3 decrypted!
+	OmegaTier1Decrypted: Омега-планшет I расшифрован!
+	OmegaTier2Decrypted: Омега-планшет II расшифрован!
+	OmegaTier3Decrypted: Омега-планшет III расшифрован!
 }
 
 Mods: {
@@ -598,28 +656,28 @@ Mods: {
 				'''
 			BlisteredFish.Text:
 				'''
-				An Unfortunate Goldfish
+				Незадачливая золотая рыбка
 				Нарыволицый
 				'''
 			KS3_Clone.Text:
 				'''
-				Hologram
-				King Slayer III
+				Голограмма
+				Король-охотник III
 				'''
 			KS3.Text:
 				'''
-				Prototype Multium
-				King Slayer III
+				Прототип «Мультиум»
+				Король-охотник III
 				'''
 			OmegaCleaver.Text:
 				'''
-				1st Omega Prototype
-				Omega Cleaver
+				Омега-прототип №1
+				Омега-Двуручник
 				'''
 			Gigapora.Text:
 				'''
-				2nd Omega Prototype
-				Omega Gigapora
+				Омега-прототип №2
+				Омега-Гигасверло
 				'''
 			ProtectorVolt.Text:
 				'''
@@ -633,8 +691,8 @@ Mods: {
 				'''
 			OO.Text:
 				'''
-				3rd Omega Prototype
-				Omega Obliterator
+				Омега-прототип №3
+				Омега-Облитератор
 				'''
 			PZ.Text:
 				'''
@@ -643,13 +701,13 @@ Mods: {
 				'''
 			Ukko.Text:
 				'''
-				Ancient God of Weather
-				Ukko
+				Древний Бог погоды
+				Укко
 				'''
 			Akka.Text:
 				'''
-				Ancient Goddess of Nature
-				Akka
+				Древняя Богиня природы
+				Акка
 				'''
 			Nebuleus.Text:
 				'''
