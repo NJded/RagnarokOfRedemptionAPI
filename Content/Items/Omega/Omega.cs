@@ -212,16 +212,17 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
             if (redemptionMod.TryFind<ModItem>("TinyCleaver", out ModItem i1) && itemType == i1.Type) return 1;
             if (redemptionMod.TryFind<ModItem>("PulseBlade", out ModItem i2) && itemType == i2.Type) return 1;
             if (redemptionMod.TryFind<ModItem>("CorruptedDoubleRifle", out ModItem i3) && itemType == i3.Type) return 1;
+			if (redemptionMod.TryFind<ModItem>("CorruptedSentryBase", out ModItem i4) && itemType == i4.Type) return 1;
 
-            if (redemptionMod.TryFind<ModItem>("CorruptedDAN", out ModItem i4) && itemType == i4.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("DrillRevolver", out ModItem i5) && itemType == i5.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("GigapeiliContactor", out ModItem i6) && itemType == i6.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("OmegaPickaxe", out ModItem i7) && itemType == i7.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("OversizedScrewdriver", out ModItem i8) && itemType == i8.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("CorruptedDAN", out ModItem i5) && itemType == i5.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("DrillRevolver", out ModItem i6) && itemType == i6.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("GigapeiliContactor", out ModItem i7) && itemType == i7.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("OmegaPickaxe", out ModItem i8) && itemType == i8.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("OversizedScrewdriver", out ModItem i9) && itemType == i9.Type) return 2;
 
-            if (redemptionMod.TryFind<ModItem>("SunInThePalm", out ModItem i9) && itemType == i9.Type) return 3;
-            if (redemptionMod.TryFind<ModItem>("OOFingergun", out ModItem i10) && itemType == i10.Type) return 3;
-            if (redemptionMod.TryFind<ModItem>("BlastBattery", out ModItem i11) && itemType == i11.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("SunInThePalm", out ModItem i10) && itemType == i10.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("OOFingergun", out ModItem i11) && itemType == i11.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("BlastBattery", out ModItem i12) && itemType == i12.Type) return 3;
             
             return 0;
         }
@@ -273,8 +274,6 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
 
             if (!isDecrypted)
             {
-                string message = "";
-
                 string messageKey = tier switch
                 {
                     1 => "Mods.RagnarokOfRedemptionAPI.Conditions.OmegaLocked.Tier1",
@@ -283,19 +282,8 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
                     _ => ""
                 };
                 
-                message = Language.GetTextValue(messageKey);
+                string message = Language.GetTextValue(messageKey);
 
-                if (string.IsNullOrEmpty(message) || message == messageKey)
-                {
-                    message = tier switch
-                    {
-                        1 => "You don't have sufficient knowledge to create this yet\nOmega Data Tablet 1 must be deciphered first",
-                        2 => "You don't have sufficient knowledge to create this yet\nOmega Data Tablet 2 must be deciphered first",
-                        3 => "You don't have sufficient knowledge to create this yet\nOmega Data Tablet 3 must be deciphered first",
-                        _ => "You don't have sufficient knowledge to create this yet"
-                    };
-                }
-                
                 TooltipLine lockedLine = new TooltipLine(Mod, "OmegaLocked", message);
                 lockedLine.OverrideColor = Color.Red;
                 tooltips.Add(lockedLine);
@@ -307,16 +295,17 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
             if (redemptionMod.TryFind<ModItem>("TinyCleaver", out ModItem i1) && itemType == i1.Type) return 1;
             if (redemptionMod.TryFind<ModItem>("PulseBlade", out ModItem i2) && itemType == i2.Type) return 1;
             if (redemptionMod.TryFind<ModItem>("CorruptedDoubleRifle", out ModItem i3) && itemType == i3.Type) return 1;
+			if (redemptionMod.TryFind<ModItem>("CorruptedSentryBase", out ModItem i4) && itemType == i4.Type) return 1;
 
-            if (redemptionMod.TryFind<ModItem>("CorruptedDAN", out ModItem i4) && itemType == i4.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("DrillRevolver", out ModItem i5) && itemType == i5.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("GigapeiliContactor", out ModItem i6) && itemType == i6.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("OmegaPickaxe", out ModItem i7) && itemType == i7.Type) return 2;
-            if (redemptionMod.TryFind<ModItem>("OversizedScrewdriver", out ModItem i8) && itemType == i8.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("CorruptedDAN", out ModItem i5) && itemType == i5.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("DrillRevolver", out ModItem i6) && itemType == i6.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("GigapeiliContactor", out ModItem i7) && itemType == i7.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("OmegaPickaxe", out ModItem i8) && itemType == i8.Type) return 2;
+            if (redemptionMod.TryFind<ModItem>("OversizedScrewdriver", out ModItem i9) && itemType == i9.Type) return 2;
 
-            if (redemptionMod.TryFind<ModItem>("SunInThePalm", out ModItem i9) && itemType == i9.Type) return 3;
-            if (redemptionMod.TryFind<ModItem>("OOFingergun", out ModItem i10) && itemType == i10.Type) return 3;
-            if (redemptionMod.TryFind<ModItem>("BlastBattery", out ModItem i11) && itemType == i11.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("SunInThePalm", out ModItem i10) && itemType == i10.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("OOFingergun", out ModItem i11) && itemType == i11.Type) return 3;
+            if (redemptionMod.TryFind<ModItem>("BlastBattery", out ModItem i12) && itemType == i12.Type) return 3;
             
             return 0;
         }
@@ -368,10 +357,6 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
             {
                 string displayNameKey = $"Mods.RagnarokOfRedemptionAPI.Items.Omega{TabletTier}DataTablet.DisplayName";
                 string displayName = Language.GetTextValue(displayNameKey);
-                if (displayName == displayNameKey)
-                {
-                    displayName = $"Omega Data Tablet {TabletTier}";
-                }
                 tooltips[nameIndex].Text = displayName;
             }
 
@@ -382,17 +367,17 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
                 {
                     string tooltipKey = $"Mods.RagnarokOfRedemptionAPI.Items.Omega{TabletTier}DataTablet.Tooltip";
                     string tooltipText = Language.GetTextValue(tooltipKey);
-                    if (tooltipText == tooltipKey)
-                    {
-                        tooltipText = "Requires a Codebreaker with a Girus Decoder to decrypt";
-                    }
                     tooltips[tooltipIndex].Text = tooltipText;
                 }
                 else
                 {
-                    tooltips[tooltipIndex].Text = "already decrypted";
+                    string decryptedKey = $"Mods.RagnarokOfRedemptionAPI.Items.Omega{TabletTier}DataTablet.Decrypted";
+                    string decryptedText = Language.GetTextValue(decryptedKey);
+                    tooltips[tooltipIndex].Text = decryptedText;
                     
-                    TooltipLine unlockedLine = new TooltipLine(Mod, "UnlockedRecipes", "unlocked recipes");
+                    string unlockedKey = $"Mods.RagnarokOfRedemptionAPI.Items.Omega{TabletTier}DataTablet.UnlockedRecipes";
+                    string unlockedText = Language.GetTextValue(unlockedKey);
+                    TooltipLine unlockedLine = new TooltipLine(Mod, "UnlockedRecipes", unlockedText);
                     tooltips.Insert(tooltipIndex + 1, unlockedLine);
                     
                     int insertIndex = tooltipIndex + 2;
@@ -400,11 +385,6 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Omega
                     {
                         string weaponNameKey = $"Mods.RagnarokOfRedemptionAPI.Items.Omega{TabletTier}DataTablet.Weapon.{weaponKey}";
                         string weaponName = Language.GetTextValue(weaponNameKey);
-
-                        if (weaponName == weaponNameKey)
-                        {
-                            weaponName = weaponKey;
-                        }
 
                         int itemType = 0;
 
