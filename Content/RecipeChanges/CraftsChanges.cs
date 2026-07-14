@@ -118,9 +118,9 @@ namespace RagnarokOfRedemptionAPI.Content.RecipeChanges
                     (ModContent.ItemType<MysteriousCircuitry>(), 15),
                     (ModContent.ItemType<DubiousPlating>(), 25)
                 );
-	//		AddIngredientToRecipeLocal<HardlightMask>(ModContent.ItemType<DubiousPlating>(), 7);
-	//		AddIngredientToRecipeLocal<HardlightReticle>(ModContent.ItemType<DubiousPlating>(), 7);
-	//		AddIngredientToRecipeLocal<HardlightVisage>(ModContent.ItemType<DubiousPlating>(), 7);
+			AddIngredientToRecipeLocal<HardlightMask>(ModContent.ItemType<DubiousPlating>(), 7);
+			AddIngredientToRecipeLocal<HardlightReticle>(ModContent.ItemType<DubiousPlating>(), 7);
+			AddIngredientToRecipeLocal<HardlightVisage>(ModContent.ItemType<DubiousPlating>(), 7);
             }
 			
 			if (ModLoader.HasMod("CalamitySimpleWhipAddon"))
@@ -297,6 +297,11 @@ namespace RagnarokOfRedemptionAPI.Content.RecipeChanges
                 (ModContent.ItemType<DubiousPlating>(), 25)
             );
             AddMultipleIngredientsToRecipeLocal<PulseBlade>(
+                (ModContent.ItemType<MysteriousCircuitry>(), 15),
+                (ModContent.ItemType<DubiousPlating>(), 25)
+            );
+
+			AddMultipleIngredientsToRecipeLocal<CorruptedSentryBase>(
                 (ModContent.ItemType<MysteriousCircuitry>(), 15),
                 (ModContent.ItemType<DubiousPlating>(), 25)
             );
