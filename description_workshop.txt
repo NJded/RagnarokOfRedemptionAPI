@@ -12,10 +12,12 @@ Secrets of the Shadows
 Homeward Ragnarok
 
 This mod does NOT support multiplayer, but this will be fixed with future Mod of Redemption updates.
+Also, if you play with the Cataclysm Mod (Clamity Addon), you will have to use AlchemistNPC Lite and if you don't want to use it, you can disable all NPCs in the AlchemistNPC configuration.
 
 Useful links:
-Discord - https://discord.gg/GafwxXN5d
+Discord - https://discord.gg/fV3QDkG22b
 Wiki - https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok
+GitHub - https://github.com/NJded/RagnarokOfRedemptionAPI
 
 Special thanks to the Infernal Eclipse of Ragnarok Team and Mod of Redemption Devs.
 
@@ -24,3 +26,4 @@ Code help: Kes
 Ideas: IceSpider, Arkangel, Cheesenuggets
 Lore writing: Targetson
 Tester: Icejuik
+Localizer: Pudding for Dinner (Chinese)
