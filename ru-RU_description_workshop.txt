@@ -1,0 +1,29 @@
+Ragnarok of Redemption это аддон для Infernal Eclipse of Ragnarok.
+
+Это официальное ДЛС для Infernal Eclipse of Ragnarok, добавляющее совместимость с Mod of Redemption.
+
+Моды имеющие совместимость:
+Mod of Redemption
+Calamity
+Thorium
+
+Моды имеющие малую совместимость:
+Secrets of the Shadows
+Homeward Ragnarok
+
+Этот мод НЕ поддерживает мультиплеер, но это будет исправлено с будующими обновлениями Mod of Redemption.
+Так же, если вы играете с Cataclysm Mod (Clamity Addon), вам нужно использовать AlchemistNPC Lite и если вы не хотите использовать НПС из этого мода, то вы можите отключить их в конфигурации AlchemistNPC.
+
+Полезные ссылки:
+Discord - https://discord.gg/fV3QDkG22b
+Wiki - https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok
+GitHub - https://github.com/NJded/RagnarokOfRedemptionAPI
+
+Отдельные благодарности команде Infernal Eclipse of Ragnarok и разработчикам Mod of Redemption.
+
+Создано MrPuzzles
+Помощь с кодом: Kes
+Идеи: IceSpider, Arkangel, Cheesenuggets
+Написание лора: Targetson
+Тестер: Icejuik
+Локализация: Pudding for Dinner (Китайский)
