@@ -11,6 +11,8 @@ using Redemption.Items.Usable.Potions;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using System.Collections.Generic;
+using Terraria.Localization;
 
 namespace RagnarokOfRedemptionAPI.Content.Items.Accessories
 {
