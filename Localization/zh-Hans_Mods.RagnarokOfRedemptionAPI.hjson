@@ -179,17 +179,22 @@ Items: {
 	Omega1DataTablet: {
 		DisplayName: 欧米伽数据面板I
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		// Decrypted: already decrypted
+		// UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			TinyCleaver: 微型斩切刃
 			PulseBlade: 脉冲之刃
 			CorruptedDoubleRifle: 腐化双管步枪
+			// CorruptedSentryBase: Omega Sentry Stand
 		}
 	}
 
 	Omega2DataTablet: {
 		DisplayName: 欧米伽数据面板II
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		// Decrypted: already decrypted
+		// UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			CorruptedDAN: 腐化D.A.N
@@ -206,6 +211,8 @@ Items: {
 	Omega3DataTablet: {
 		DisplayName: 欧米伽数据面板III
 		Tooltip: 一个安装了吉鲁斯解码器的密码破译器能将其解密
+		// Decrypted: already decrypted
+		// UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			SunInThePalm: 掌中日
@@ -225,7 +232,7 @@ Items: {
 				'''
 				为征伐栖居此世的众神，我已远行万里。
 				我曾直面诡诈之徒与嗜杀之辈——从自封正义的英雄，到毫不掩饰残虐的暴君。
-			    这一路上，我曾迎战战士、野兽、恶魔，以及形形色色的敌手。到了如今，此生已少有我未曾见识之事。
+				   这一路上，我曾迎战战士、野兽、恶魔，以及形形色色的敌手。到了如今，此生已少有我未曾见识之事。
 				归根结底，我想说的是……
 				这啥玩意？！
 				'''
@@ -522,6 +529,24 @@ Buffs: {
 Tiles.GirusDecoderTile.MapEntry: 吉鲁斯解码器
 
 Conditions: {
+	OmegaLocked: {
+		/* Tier1:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet I must be deciphered first
+			''' */
+		/* Tier2:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet II must be deciphered first
+			''' */
+		/* Tier3:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet III must be deciphered first
+			''' */
+	}
+
 	OmegaTier2Decrypted: 已解密欧米伽数据面板II
 	OmegaTier1Decrypted: 已解密欧米伽数据面板I
 	OmegaTier3Decrypted: 已解密欧米伽数据面板III
