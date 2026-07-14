@@ -1,37 +1,69 @@
 Items: {
 	ArchmageMutagen: {
 		DisplayName: Archmage Mutagen
-		Tooltip: Increases magic damage by 25% and magic critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases magic damage by 25% 
+			Increases magic critical strike chance by 15%
+			'''
 	}
 
 	AssassinsMutagen: {
 		DisplayName: Assassins Mutagen
-		Tooltip: Increases throwing damage by 25% and throwing critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases throwing damage by 25%
+			Increases throwing critical strike chance by 15%
+			Increases maximum technique points by 1
+			'''
 	}
 
 	BullseyeMutagen: {
 		DisplayName: Bullseye Mutagen
-		Tooltip: Increases ranged damage by 25% and ranged critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases ranged damage by 25%
+			Increases ranged critical strike chance by 15%
+			'''
 	}
 
 	CounsellorMutagen: {
 		DisplayName: Counsellor Mutagen
-		Tooltip: Increases summon damage by 25% and minion critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases summon damage by 25%
+			Increased whip range by 15%
+			Minions gain a base 7% critical strike chance
+			'''
 	}
 
 	MaestroMutagen: {
 		DisplayName: Maestro Mutagen
-		Tooltip: Increases symphonic damage by 25% and symphonic critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases symphonic damage by 25%
+			Increases symphonic critical strike chance by 15%
+			Increases maximum inspiration by 5
+			'''
 	}
 
 	PriestsMutagen: {
 		DisplayName: Priests Mutagen
-		Tooltip: Increases radiant damage by 25% and radiant critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases radiant damage by 25%
+			Increases radiant critical strike chance by 15%
+			Healing spells will heal an additional 5 life
+			'''
 	}
 
 	SwordmasterMutagen: {
 		DisplayName: Swordmaster Mutagen
-		Tooltip: Increases melee damage by 25% and melee critical strike chance by 15%
+		Tooltip:
+			'''
+			Increases melee damage by 25% 
+			Increases melee critical strike chance by 15%
+			'''
 	}
 
 	AkkaRelic: {
@@ -177,19 +209,24 @@ Items: {
 	}
 
 	Omega1DataTablet: {
-		DisplayName: Omega Data Tablet 1
+		DisplayName: Omega Data Tablet I
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			TinyCleaver: Tiny Cleaver
 			PulseBlade: Pulse Blade
 			CorruptedDoubleRifle: Corrupted Double Rifle
+			CorruptedSentryBase: Omega Sentry Stand
 		}
 	}
 
 	Omega2DataTablet: {
-		DisplayName: Omega Data Tablet 2
+		DisplayName: Omega Data Tablet II
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			CorruptedDAN: Corrupted D.A.N
@@ -204,8 +241,10 @@ Items: {
 	}
 
 	Omega3DataTablet: {
-		DisplayName: Omega Data Tablet 3
+		DisplayName: Omega Data Tablet III
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
 
 		Weapon: {
 			SunInThePalm: Sun In The Palm
@@ -491,17 +530,17 @@ Items: {
 
 	Omega3DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 3
+		DisplayName: Broken Omega Data Tablet III
 	}
 
 	Omega2DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 2
+		DisplayName: Broken Omega Data Tablet II
 	}
 
 	Omega1DataBrokenTablet: {
 		Tooltip: ""
-		DisplayName: Broken Omega Data Tablet 1
+		DisplayName: Broken Omega Data Tablet I
 	}
 }
 
@@ -522,15 +561,33 @@ Buffs: {
 Tiles.GirusDecoderTile.MapEntry: Girus Decoder Tile
 
 Conditions: {
-	OmegaTier2Decrypted: Decrypted Omega Data Tablet 2
-	OmegaTier1Decrypted: Decrypted Omega Data Tablet 1
-	OmegaTier3Decrypted: Decrypted Omega Data Tablet 3
+	OmegaLocked: {
+		Tier1:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet I must be deciphered first
+			'''
+		Tier2:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet II must be deciphered first
+			'''
+		Tier3:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet III must be deciphered first
+			'''
+	}
+
+	OmegaTier2Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier2Decrypted
+	OmegaTier1Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier1Decrypted
+	OmegaTier3Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier3Decrypted
 }
 
 Messages: {
-	OmegaTier1Decrypted: Omega Data Tablet 1 decrypted!
-	OmegaTier2Decrypted: Omega Data Tablet 2 decrypted!
-	OmegaTier3Decrypted: Omega Data Tablet 3 decrypted!
+	OmegaTier1Decrypted: Omega Data Tablet I decrypted!
+	OmegaTier2Decrypted: Omega Data Tablet II decrypted!
+	OmegaTier3Decrypted: Omega Data Tablet III decrypted!
 }
 
 Mods: {
