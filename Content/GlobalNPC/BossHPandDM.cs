@@ -18,16 +18,16 @@ namespace RagnarokOfRedemptionAPI.Content.NPCDrops
 
         private static readonly HashSet<string> bossNames = new()
         {
-            "Akka","Ukko","OmegaCleaver","Wielder","Erhan","Erhan_Spirit","Gigapora",
-            "Gigapora_BodySegment_Core","Gigapora_BodySegment_Tail","Gigapora_ShieldCore","Keeper","KeeperSpirit",
-            "KS3","Nebuleus","Nebuleus2","OO","PZ","SoI","Thorn",
-			"ProtectorVolt","IrradiatedBehemoth","JanitorBot","BlisteredFish","MACEProject",
-			"SkullDigger","FowlEmperor","EaglecrestGolem","Calavia"
+            "Akka","Ukko","OmegaCleaver","Wielder","Gigapora",
+            "Gigapora_BodySegment_Core","Gigapora_BodySegment_Tail","Gigapora_ShieldCore",
+            "KS3","Nebuleus","Nebuleus2","OO","PZ",
+			"ProtectorVolt","IrradiatedBehemoth","JanitorBot","Blisterface","MACEProject",
+			"EaglecrestGolem2"
         };
 
         private static readonly HashSet<string> universalBosses = new()
         {
-            "Akka","Ukko","Nebuleus","Nebuleus2","OO","PZ"
+            "Akka","Ukko","Nebuleus","Nebuleus2","OO","PZ","EaglecrestGolem2"
         };
 
         public override void SetDefaults(NPC npc)
