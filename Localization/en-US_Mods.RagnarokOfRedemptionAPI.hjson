@@ -565,29 +565,37 @@ Conditions: {
 		Tier1:
 			'''
 			You don't have sufficient knowledge to create this yet
-			Omega Data Tablet I must be deciphered first
+			Omega Data Tablet 1 must be deciphered first
 			'''
 		Tier2:
 			'''
 			You don't have sufficient knowledge to create this yet
-			Omega Data Tablet II must be deciphered first
+			Omega Data Tablet 2 must be deciphered first
 			'''
 		Tier3:
 			'''
 			You don't have sufficient knowledge to create this yet
-			Omega Data Tablet III must be deciphered first
+			Omega Data Tablet 3 must be deciphered first
 			'''
 	}
 
-	OmegaTier2Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier2Decrypted
-	OmegaTier1Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier1Decrypted
-	OmegaTier3Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier3Decrypted
+	OmegaTier2Decrypted: Decrypt Omega Data Tablet II
+	OmegaTier1Decrypted: Decrypt Omega Data Tablet I
+	OmegaTier3Decrypted: Decrypt Omega Data Tablet III
 }
 
 Messages: {
 	OmegaTier1Decrypted: Omega Data Tablet I decrypted!
 	OmegaTier2Decrypted: Omega Data Tablet II decrypted!
 	OmegaTier3Decrypted: Omega Data Tablet III decrypted!
+}
+
+ItemTooltips: {
+	SoulCandle: {
+		ThoriumBonus: Can also cause more souls of Plight to appear
+		CalamityBonus: Can also cause more essence of Eleum, Havoc, and Sunlight to appear
+		JourneyBonus: Can also cause more essence of Darkness, Life, Matter and Time to appear
+	}
 }
 
 Mods: {
@@ -653,7 +661,7 @@ Mods: {
 				An Unfortunate Scientist
 				Irradiated Behemoth
 				'''
-			BlisteredFish.Text:
+			Blisterface.Text:
 				'''
 				An Unfortunate Goldfish
 				Blisterface
