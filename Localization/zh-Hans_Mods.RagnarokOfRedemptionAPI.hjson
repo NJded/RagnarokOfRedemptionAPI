@@ -470,7 +470,7 @@ Items: {
 				林木向你呼救，你却把那些替它们剪除藤蔓的人也当成祸害，一并斩倒。
 				如今，已没有林木可向你求救。因为在你移开目光时，它们的家园早已沦亡。
 				最后留下的，只有那些你口口声声称要清剿的野兽。”
-				……我总觉得那番话是她预先想好的。其实还能再打磨打磨。
+				……我总觉得那番话是她预先想好的。真要细究，其实还能再打磨打磨。
 				但这并不减损它的真实。
 				'''
 		}
@@ -579,9 +579,9 @@ Conditions: {
 			'''
 	}
 
-	// OmegaTier2Decrypted: Decrypt Omega Data Tablet II
-	// OmegaTier1Decrypted: Decrypt Omega Data Tablet I
-	// OmegaTier3Decrypted: Decrypt Omega Data Tablet III
+	OmegaTier2Decrypted: 解密欧米伽数据面板II
+	OmegaTier1Decrypted: 解密欧米伽数据面板I
+	OmegaTier3Decrypted: 解密欧米伽数据面板III
 }
 
 Messages: {
@@ -592,9 +592,9 @@ Messages: {
 
 ItemTooltips: {
 	SoulCandle: {
-		// ThoriumBonus: Can also cause more souls of Plight to appear
-		// CalamityBonus: Can also cause more essence of Eleum, Havoc, and Sunlight to appear
-		// JourneyBonus: Can also cause more essence of Darkness, Life, Matter and Time to appear
+		ThoriumBonus: 也可使敌人掉落更多困境之魂
+		CalamityBonus: 也可使敌人掉落更多冰川、混乱和日光精华
+		JourneyBonus: 也可使敌人掉落更多黑暗、生命、物质和时光精华
 	}
 }
 
