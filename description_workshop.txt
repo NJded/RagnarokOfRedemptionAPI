@@ -11,11 +11,21 @@ Adds minor compatibility for mods such as:
 Secrets of the Shadows
 Homeward Ragnarok
 
+This mod adds:
+Infernal Relics for Redemption bosses
+Calamity lore items for Redemption bosses
+Balance changes for some weapons
+100+ Recipe changes
+Boss Checklist Support
+SOTS Mineralarium Support
+9 new accessories, some of which appear if Homeward Ragnarok is enabled
+Three new schematics for Codebreaker
+
 This mod does NOT support multiplayer, but this will be fixed with future Mod of Redemption updates.
 Also, if you play with the Cataclysm Mod (Clamity Addon), you will have to use AlchemistNPC Lite and if you don't want to use it, you can disable all NPCs in the AlchemistNPC configuration.
 
 Useful links:
-Discord - https://discord.gg/fV3QDkG22b
+Discord - https://discord.gg/uRSYfmy2yX
 Wiki - https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok
 GitHub - https://github.com/NJded/RagnarokOfRedemptionAPI
 
