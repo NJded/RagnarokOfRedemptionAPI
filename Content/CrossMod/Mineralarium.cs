@@ -1,23 +1,23 @@
 using Terraria;
 using Terraria.ModLoader;
 using Redemption.Tiles.Ores;
-using InfernalEclipseAPI.Core.Systems.Hooks.ILTileChanges;
+using InfernalEclipseAPI.Core.Systems;
 using System;
 
 namespace RagnarokOfRedemptionAPI.Content.CrossMod
 {
     [JITWhenModsEnabled("SOTS")]
     [ExtendsFromMod("SOTS")]
-    public class MyMineralariumIntegration : ModSystem
+    public class MineralariumOres : ModSystem
     {
         public static bool downedSeedOfInfection = false;
 
         public override void PostSetupContent()
         {
-            SOTSMineralariumHooks.ParseNewOre(ModContent.TileType<UraniumTile>(), 4800, 1.2f, () => NPC.downedGolemBoss);
-            SOTSMineralariumHooks.ParseNewOre(ModContent.TileType<PlutoniumTile>(), 11160, 1.2f, () => NPC.downedMoonlord);
-            SOTSMineralariumHooks.ParseNewOre(ModContent.TileType<XenomiteShardTile>(), 2900, 1.2f, () => downedSeedOfInfection);
-            SOTSMineralariumHooks.ParseNewOre(ModContent.TileType<DragonLeadOreTile>(), 3500, 1.0f, () => NPC.downedBoss3 && GetRedemptionAlignment() < 0);
+            InfernalCrossmod.SOTS.Mod.Call("AddMineralariumOre", ModContent.TileType<UraniumTile>(), 4800, 1.2f, () => NPC.downedGolemBoss);
+            InfernalCrossmod.SOTS.Mod.Call("AddMineralariumOre", ModContent.TileType<PlutoniumTile>(), 11160, 1.2f, () => NPC.downedMoonlord);
+            InfernalCrossmod.SOTS.Mod.Call("AddMineralariumOre", ModContent.TileType<XenomiteShardTile>(), 2900, 1.2f, () => downedSeedOfInfection);
+            InfernalCrossmod.SOTS.Mod.Call("AddMineralariumOre", ModContent.TileType<DragonLeadOreTile>(), 3500, 1.0f, () => NPC.downedBoss3 && GetRedemptionAlignment() < 0);
         }
 
         private static int GetRedemptionAlignment()
