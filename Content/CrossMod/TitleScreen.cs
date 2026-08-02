@@ -116,7 +116,7 @@ namespace RagnarokOfRedemptionAPI.Compat
                 ("Calavia", "Calavia", new Color(0xe2, 0xff, 0xff), null, SoundID.MenuTick, SoundID.Roar, false, 0),
                 ("JanitorBot", "JanitorBot", new Color(0x95, 0x99, 0xa9), new Color(0xf2, 0xf5, 0xff), SoundID.MenuTick, SoundID.Roar, false, 0),
                 ("IrradiatedBehemoth", "IrradiatedBehemoth", new Color(0x36, 0xc1, 0x3b), null, SoundID.MenuTick, SoundID.Roar, false, 0),
-                ("BlisteredFish", "BlisteredFish", new Color(0xaf, 0xcd, 0x35), new Color(0x00, 0x92, 0x4f), SoundID.MenuTick, SoundID.Roar, false, 0),
+                ("Blisterface", "Blisterface", new Color(0xaf, 0xcd, 0x35), new Color(0x00, 0x92, 0x4f), SoundID.MenuTick, SoundID.Roar, false, 0),
 				("Stage3Scientist", "Stage3Scientist", new Color(0xaf, 0xcd, 0x35), new Color(0x00, 0x92, 0x4f), SoundID.MenuTick, SoundID.Roar, false, 0),
                 ("KS3", "KS3", new Color(0x00, 0x5f, 0x92), new Color(0x00, 0x5f, 0x92), SoundID.MenuTick, SoundID.Roar, true, 0),
                 ("KS3_Clone", "KS3_Clone", new Color(0x00, 0x5f, 0x92), new Color(0x00, 0x5f, 0x92), SoundID.MenuTick, SoundID.Roar, true, 0),
