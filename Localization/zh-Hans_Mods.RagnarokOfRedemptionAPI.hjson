@@ -579,15 +579,23 @@ Conditions: {
 			'''
 	}
 
-	OmegaTier2Decrypted: 已解密欧米伽数据面板II
-	OmegaTier1Decrypted: 已解密欧米伽数据面板I
-	OmegaTier3Decrypted: 已解密欧米伽数据面板III
+	// OmegaTier2Decrypted: Decrypt Omega Data Tablet II
+	// OmegaTier1Decrypted: Decrypt Omega Data Tablet I
+	// OmegaTier3Decrypted: Decrypt Omega Data Tablet III
 }
 
 Messages: {
 	OmegaTier1Decrypted: 欧米伽数据面板I 已解密！
 	OmegaTier2Decrypted: 欧米伽数据面板II 已解密！
 	OmegaTier3Decrypted: 欧米伽数据面板III 已解密！
+}
+
+ItemTooltips: {
+	SoulCandle: {
+		// ThoriumBonus: Can also cause more souls of Plight to appear
+		// CalamityBonus: Can also cause more essence of Eleum, Havoc, and Sunlight to appear
+		// JourneyBonus: Can also cause more essence of Darkness, Life, Matter and Time to appear
+	}
 }
 
 Mods: {
@@ -653,7 +661,7 @@ Mods: {
 				不幸科学家
 				辐射巨兽
 				'''
-			BlisteredFish.Text:
+			Blisterface.Text:
 				'''
 				不幸金鱼
 				脓疱疮脸
