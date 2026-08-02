@@ -11,11 +11,21 @@ Thorium
 Secrets of the Shadows
 Homeward Ragnarok
 
+Мод добавляет:
+Инфернальные реликвии для боссов Redemption
+Истории боссов из каламити для боссов Redemption
+Изменение баланса части оружий
+100+ изменений рецептов
+Поддержка Boss Checklist
+Поддержка минералиумов SOTS
+9 новых аксессуаров часть которых появляется если включён Homeward Ragnarok
+Новые чертежи для дешифратора Дрэйдона
+
 Этот мод НЕ поддерживает мультиплеер, но это будет исправлено с будующими обновлениями Mod of Redemption.
 Так же, если вы играете с Cataclysm Mod (Clamity Addon), вам нужно использовать AlchemistNPC Lite и если вы не хотите использовать НПС из этого мода, то вы можите отключить их в конфигурации AlchemistNPC.
 
 Полезные ссылки:
-Discord - https://discord.gg/fV3QDkG22b
+Discord - https://discord.gg/uRSYfmy2yX
 Wiki - https://terrariamods.wiki.gg/wiki/Infernal_Eclipse_of_Ragnarok
 GitHub - https://github.com/NJded/RagnarokOfRedemptionAPI
 
