@@ -181,12 +181,12 @@ Items: {
 		蜜蜂与蜘蛛蜂拥者变得温顺
 		免疫被网住减益
 		'''
-	/* GaiaBoots.ExtraTooltip:
+	GaiaBoots.ExtraTooltip:
 		'''
-		Fairies can spawn at any time on the surface and spawn far more frequently
-		Nearby fairies grant +1 HP/s life regen, 4 defense and 10% movement speed
-		Fairies are immune to damage and will no longer flee
-		''' */
+		大幅度提升仙灵的生成概率，在白天地表也能自然生成
+		附近仙灵会提供1HP/秒生命再生，4点防御与10%移动速度
+		仙灵免疫敌怪的伤害并能跟随你
+		'''
 
 	NanoCore: {
 		DisplayName: 纳米核心
