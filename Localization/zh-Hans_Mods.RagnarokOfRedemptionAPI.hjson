@@ -181,6 +181,12 @@ Items: {
 		蜜蜂与蜘蛛蜂拥者变得温顺
 		免疫被网住减益
 		'''
+	/* GaiaBoots.ExtraTooltip:
+		'''
+		Fairies can spawn at any time on the surface and spawn far more frequently
+		Nearby fairies grant +1 HP/s life regen, 4 defense and 10% movement speed
+		Fairies are immune to damage and will no longer flee
+		''' */
 
 	NanoCore: {
 		DisplayName: 纳米核心
@@ -470,7 +476,7 @@ Items: {
 				林木向你呼救，你却把那些替它们剪除藤蔓的人也当成祸害，一并斩倒。
 				如今，已没有林木可向你求救。因为在你移开目光时，它们的家园早已沦亡。
 				最后留下的，只有那些你口口声声称要清剿的野兽。”
-				……我总觉得那番话是她预先想好的。真要细究，其实还能再打磨打磨。
+				……我总觉得那番话是她预先想好的。其实还能再打磨打磨。
 				但这并不减损它的真实。
 				'''
 		}
