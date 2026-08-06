@@ -163,20 +163,6 @@ namespace RagnarokOfRedemptionAPI.Content.Items.Accessories
 				}
 			}
 		}
-		
-		public override void OnHitNPCWithProj(Projectile proj, NPC target, NPC.HitInfo hit, int dmg)
-		{
-			if (!_equipped) return;
-			var owner = Main.player[proj.owner];
-			if (owner?.HeldItem.HasElementItem(ElementID.Holy) == true && Main.rand.NextBool(5))
-				Projectile.NewProjectile(null, target.Center, Vector2.Zero, ProjectileID.HolyWater, 50, 2f);
-		}
-		
-		public override void OnHitNPCWithItem(Item item, NPC target, NPC.HitInfo hit, int dmg)
-		{
-			if (_equipped && item.HasElementItem(ElementID.Holy) && Main.rand.NextBool(5))
-				Projectile.NewProjectile(null, target.Center, Vector2.Zero, ProjectileID.HolyWater, 50, 2f);
-		}
 	}
 	
 	public class BurningGraceRegenBuff : ModBuff
