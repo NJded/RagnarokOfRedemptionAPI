@@ -9,7 +9,7 @@ Items: {
 	}
 
 	AssassinsMutagen: {
-		DisplayName: Assassins Mutagen
+		DisplayName: Slinger Mutagen
 		Tooltip:
 			'''
 			Increases throwing damage by 25%
@@ -38,7 +38,7 @@ Items: {
 	}
 
 	MaestroMutagen: {
-		DisplayName: Maestro Mutagen
+		DisplayName: Composer Mutagen
 		Tooltip:
 			'''
 			Increases symphonic damage by 25%
@@ -48,7 +48,7 @@ Items: {
 	}
 
 	PriestsMutagen: {
-		DisplayName: Priests Mutagen
+		DisplayName: Chaplain Mutagen
 		Tooltip:
 			'''
 			Increases radiant damage by 25%
@@ -160,33 +160,75 @@ Items: {
 		DisplayName: Burning Grace
 		Tooltip:
 			'''
-			8% increased healing speed
-			12% increased Holy elemental damage and resistance
-			6% increased Holy and Fire elemental critical strike chance
+			15% increased {0} elemental damage and resistance
+			6% increased {0} and {1} elemental critical strike chance
 			Stacks if both elements are present
-			Healing an ally increases their life regeneration and regeneration rate
-			Healing spells will increase the healed targets defense by 14 for 20 seconds
-			Critical strikes with a Holy elemental weapon or using healing tools has a chance to release homing lightmass
-			An aura of holy flames surrounds you while holding a Fire or Holy elemental weapon
-			Aura is empowered while holding a Healer tool
+			Critical strikes with a {0} elemental weapon has a chance to release homing lightmass
+			An aura of holy flames surrounds you while holding a {1} or {0} elemental weapon
 			Increases length of invincibility after taking damage
+			Increases damage reduction by 20% if you avoid taking damage for to seconds
+			This buff expires on hit
 			'''
 	}
 
-	AmbrosialAmpoule.ExtraTooltip:
-		'''
-		Friendly blue flies will occasionally appear to protect you
-		Any flies that target you will transform into blue flies
-		Critters are attracted to you and shy critters won't fear you
-		Bees and Spider Swarmers become passive
-		Grants immunity to Webbed
-		'''
+	CoreOfVirulence: {
+		DisplayName: Core of Virulence
+		Tooltip:
+			'''
+			Your heart occasionally pulses with the [cbuff:CalamityMod/Plague] and [cbuff:Redemption/BileDebuff]
+			Pulse frequency scales with regen, and pulses that kill enemies pulse again to heal you
+			Pulses deal increased damage to debuffed enemies
+			50% increased Sickness debuff damage
+			25% increased {0} elemental resistance
+			12% increased {0} elemental damage
+			Effects are transparent and silent if visibility is disabled
+			'What doesn't kill us - mutates and tries again'
+			'''
+	}
+
+	RootOfTheEvil: {
+		DisplayName: Root of the Evil
+		Tooltip:
+			'''
+			All {0} and {3} elemental weapons gain {1} and {2} element
+			Your {1} weapons are more effective against Dark enemies
+			Your {2} weapons are more effective against Blood enemies
+			15% increased {1}, {2} and {3} elemental damage and resistance
+			'''
+	}
+
+	BloomingJungleCore: {
+		DisplayName: Blooming Jungle Core
+		Tooltip:
+			'''
+			15% increased {0} elemental damage and resistance
+			Increased chance of Nature Boons to drop from the {0} elemental bonus
+			Nature Boons additionally increase critical strike chance for {0} weapons by 12%
+			Increased duration of Nature Boons' effect
+			'''
+	}
+
+	BlossomCirclet: {
+		DisplayName: Blossom Circlet
+		Tooltip:
+			'''
+			15% increased {0} elemental damage and resistance
+			Increased chance of Nature Boons to drop from the {0} elemental bonus
+			Nature Boons additionally increase critical strike chance for {0} weapons by 15%
+			Increased duration of Nature Boons' effect
+			Up to 30% increase {0} elemental damage the lower your life
+			Current boost: [DAMAGE]%
+			All attacks inflict [cbuff:Venom]
+			'''
+	}
+
 	GaiaBoots.ExtraTooltip:
 		'''
 		Fairies can spawn at any time on the surface and spawn far more frequently
 		Nearby fairies grant +1 HP/s life regen, 4 defense and 10% movement speed
 		Fairies are immune to damage and will no longer flee
 		'''
+	RingofTixChange.WardbreakerTooltip: The wearer's magic or {0} weapons deal double damage to Guard Points
 
 	NanoCore: {
 		DisplayName: Nano Core
@@ -198,7 +240,7 @@ Items: {
 			Provides a moderate amount of light, reduces breath loss, and reduces damage caused by drowning in the abyss
 			Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
 			Grants immunity to the Abandoned Lab, Wasteland and Sulfurous water
-			Grants immunity to [cbuff:CalamityMod/CrushDepth] , [cbuff:Redemption/RadioactiveFalloutDebuff] and all infection debuffs
+			Grants immunity to [cbuff:CalamityMod/CrushDepth], [cbuff:Redemption/RadioactiveFalloutDebuff] and all infection debuffs
 			Grants resistance to the increased breath loss caused by [cbuff:CalamityMod/HadopelagicPressure]
 			Grants protection against up radiation protection
 			'''
@@ -219,13 +261,6 @@ Items: {
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
 		Decrypted: already decrypted
 		UnlockedRecipes: unlocked recipes
-
-		Weapon: {
-			TinyCleaver: Tiny Cleaver
-			PulseBlade: Pulse Blade
-			CorruptedDoubleRifle: Corrupted Double Rifle
-			CorruptedSentryBase: Omega Sentry Stand
-		}
 	}
 
 	Omega2DataTablet: {
@@ -233,17 +268,6 @@ Items: {
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
 		Decrypted: already decrypted
 		UnlockedRecipes: unlocked recipes
-
-		Weapon: {
-			CorruptedDAN: Corrupted D.A.N
-			DrillRevolver: Drill Revolver
-			GigapeiliContactor: Gigapeili Contactor
-			OmegaPickaxe: Omega Pickaxe
-			OversizedScrewdriver: Oversized Screwdriver
-			Shockriken: Shockriken
-			VlitchSynthesizer: Vlitch Synthesizer
-			KillswitchEngineer: Killswitch Engineer
-		}
 	}
 
 	Omega3DataTablet: {
@@ -251,15 +275,6 @@ Items: {
 		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
 		Decrypted: already decrypted
 		UnlockedRecipes: unlocked recipes
-
-		Weapon: {
-			SunInThePalm: Sun In The Palm
-			OOFingergun: Omega Finger Gun
-			BlastBattery: Blast Battery
-			ScorchingScalpel: Scorching Scalpel
-			Oboeterator: Oboeterator
-			OmegaDefibrillator: Omega Defibrillator
-		}
 	}
 
 	Lore: {
@@ -602,6 +617,27 @@ ItemTooltips: {
 		CalamityBonus: Can also cause more essence of Eleum, Havoc, and Sunlight to appear
 		JourneyBonus: Can also cause more essence of Darkness, Life, Matter and Time to appear
 	}
+}
+
+ItemBalance: {
+	Modified: Modified by Ragnarok Of Redemption
+	Modified2: Hold {0} to see modifications
+	DamageUpGeneric: "    Damage increased by [c/00A36C:{0}%]"
+	DamageDownGeneric: "    Damage decreased by [c/FF0000:{0}%]"
+	ShootSpeedUpGeneric: "    Shoot speed decreased by [c/FF0000:{0}%]"
+	ShootSpeedDownGeneric: "    Shoot speed increased by [c/00A36C:{0}%]"
+	UseTimeUpGeneric: "    Use time decreased by [c/00A36C:{0}%]"
+	UseTimeDownGeneric: "    Use time increased by [c/FF0000:{0}%]"
+	UseAnimationUpGeneric: "    Use animation decreased by [c/00A36C:{0}%]"
+	UseAnimationDownGeneric: "    Use animation increased by [c/FF0000:{0}%]"
+	UseSpeedUpGeneric: "    Use speed increased by [c/00A36C:{0}%]"
+	UseSpeedDownGeneric: "    Use speed decreased by [c/FF0000:{0}%]"
+	PickUpGeneric: "    Pickaxe power increased by [c/FF0000:{0}%]"
+	PickDownGeneric: "    Pickaxe power decreased by [c/FF0000:{0}%]"
+	CritUpGeneric: "    Critical strike chance increased by [c/00A36C:{0}%]"
+	CritDownGeneric: "    Critical strike chance decreased by [c/FF0000:{0}%]"
+	DefenseUpGeneric: "    Defense increased by {0}"
+	DefenseDownGeneric: "    Defense decreased by {0}"
 }
 
 Mods: {
