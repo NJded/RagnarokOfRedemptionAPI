@@ -632,7 +632,7 @@ ItemBalance: {
 	UseAnimationDownGeneric: "    Use animation increased by [c/FF0000:{0}%]"
 	UseSpeedUpGeneric: "    Use speed increased by [c/00A36C:{0}%]"
 	UseSpeedDownGeneric: "    Use speed decreased by [c/FF0000:{0}%]"
-	PickUpGeneric: "    Pickaxe power increased by [c/FF0000:{0}%]"
+	PickUpGeneric: "    Pickaxe power increased by [c/00A36C:{0}%]"
 	PickDownGeneric: "    Pickaxe power decreased by [c/FF0000:{0}%]"
 	CritUpGeneric: "    Critical strike chance increased by [c/00A36C:{0}%]"
 	CritDownGeneric: "    Critical strike chance decreased by [c/FF0000:{0}%]"

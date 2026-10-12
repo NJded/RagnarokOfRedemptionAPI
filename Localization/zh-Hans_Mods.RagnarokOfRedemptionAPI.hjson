@@ -160,68 +160,66 @@ Items: {
 		DisplayName: 炽焰恩典
 		Tooltip:
 			'''
-			增加8%治疗速度
-			增加12%神圣元素伤害与抗性
-			增加6%神圣与火元素暴击率
+			增加15%{0}元素伤害与抗性
+			增加6%{0}与{1}元素暴击率
 			若两种元素同时存在则可叠加
-			治疗队友会提升其生命再生量与再生速度
-			治疗法术会使受治疗目标的防御提升14，持续20秒
-			用神圣元素武器打出暴击或使用治疗工具时，有概率释放追踪光雨
-			手持火或神圣元素武器时，圣焰光环将环绕于你
-			手持牧师工具时，光环得到强化
+			用{0}元素武器打出暴击时，有概率释放追踪光球
+			手持{1}或{0}元素武器时，圣焰光环将环绕于你
 			延长受伤后的无敌时间
+			若2秒内未受到伤害，伤害减免提高20%
+			受到伤害时，该增益效果消失
 			'''
 	}
 
 	CoreOfVirulence: {
-		// DisplayName: Core of Virulence
-		/* Tooltip:
+		DisplayName: 灾疫魔核
+		Tooltip:
 			'''
-			Your heart occasionally pulses with the [cbuff:CalamityMod/Plague] and [cbuff:Redemption/BileDebuff]
-			Pulse frequency scales with regen, and pulses that kill enemies pulse again to heal you
-			Pulses deal increased damage to debuffed enemies
-			50% increased Sickness debuff damage
-			25% increased {0} elemental resistance
-			12% increased {0} elemental damage
-			Effects are transparent and silent if visibility is disabled
-			'What doesn't kill us - mutates and tries again'
-			''' */
+			你的心脏与[cbuff:CalamityMod/Plague]和[cbuff:Redemption/BileDebuff]一起脉冲
+			脉冲频率与生命再生相关，且击杀敌怪的脉冲会再次释放脉冲并治疗你
+			脉冲对受到减益效果影响的敌人造成更高伤害
+			疾病系减益的伤害增加50%
+			增加25%{0}元素抗性
+			增加12%{0}元素伤害
+			关闭可见性后，特效将不可见且不再发出声音
+			“那些杀不死我们的，终将变异后卷土重来”
+			'''
 	}
 
 	RootOfTheEvil: {
-		// DisplayName: Root of the Evil
-		/* Tooltip:
+		DisplayName: 诸恶之根
+		Tooltip:
 			'''
-			All {0} and {3} elemental weapons gain {1} and {2} element
-			Your {1} weapons are more effective against Dark enemies
-			Your {2} weapons are more effective against Blood enemies
-			15% increased {1}, {2} and {3} elemental damage and resistance
-			''' */
+			使所有{0}与{3}元素武器同时带有{1}和{2}元素属性
+			你的{1}元素武器现在对付暗影敌怪效果更强
+			你的{2}元素武器现在对付血腥敌怪效果更强
+			增加15%{1}、{2}与{3}元素伤害及抗性
+			'''
 	}
 
 	BloomingJungleCore: {
-		// DisplayName: Blooming Jungle Core
-		/* Tooltip:
+		DisplayName: 盛绽丛林之核
+		Tooltip:
 			'''
-			15% increased {0} elemental damage and resistance
-			Increased chance of Nature Boons to drop from the {0} elemental bonus
-			Nature Boons additionally increase critical strike chance for {0} weapons by 12%
-			Increased duration of Nature Boons' effect
-			''' */
+			增加15%{0}元素伤害与抗性
+			增加从{0}元素攻击中掉落自然恩惠的概率
+			自然恩惠为{0}元素武器额外增加12%暴击率
+			增加自然恩惠增益的持续时间
+			'''
 	}
 
 	BlossomCirclet: {
-		// DisplayName: Blossom Circlet
-		/* Tooltip:
+		DisplayName: 盛繁花冠
+		Tooltip:
 			'''
-			15% increased {0} elemental damage and resistance
-			Increased chance of Nature Boons to drop from the {0} elemental bonus
-			Nature Boons additionally increase critical strike chance for {0} weapons by 15%
-			Increased duration of Nature Boons' effect
-			Up to 30% increase {0} elemental damage the lower your life
-			Current boost: [DAMAGE]%
-			All attacks inflict [cbuff:Venom]
-			''' */
+			增加15%{0}元素伤害与抗性
+			增加从{0}元素攻击中掉落自然恩惠的概率
+			自然恩惠为{0}元素武器额外增加15%暴击率
+			增加自然恩惠增益的持续时间
+			随生命值降低，提升至多30%的{0}元素伤害
+			当前加成：[DAMAGE]%
+			所有攻击都会造成[cbuff:Venom]减益
+			'''
 	}
 
 	GaiaBoots.ExtraTooltip:
@@ -230,7 +228,7 @@ Items: {
 		附近仙灵会提供1HP/秒生命再生，4点防御与10%移动速度
 		仙灵免疫敌怪的伤害并能跟随你
 		'''
-	// RingofTixChange.WardbreakerTooltip: The wearer's magic or {0} weapons deal double damage to Guard Points
+	RingofTixChange.WardbreakerTooltip: 穿戴者的魔法或{0}元素武器对格挡值造成双倍伤害
 
 	NanoCore: {
 		DisplayName: 纳米核心
@@ -622,24 +620,24 @@ ItemTooltips: {
 }
 
 ItemBalance: {
-	// Modified: Modified by Ragnarok Of Redemption
-	// Modified2: Hold {0} to see modifications
-	// DamageUpGeneric: "    Damage increased by [c/00A36C:{0}%]"
-	// DamageDownGeneric: "    Damage decreased by [c/FF0000:{0}%]"
-	// ShootSpeedUpGeneric: "    Shoot speed decreased by [c/FF0000:{0}%]"
-	// ShootSpeedDownGeneric: "    Shoot speed increased by [c/00A36C:{0}%]"
-	// UseTimeUpGeneric: "    Use time decreased by [c/00A36C:{0}%]"
-	// UseTimeDownGeneric: "    Use time increased by [c/FF0000:{0}%]"
-	// UseAnimationUpGeneric: "    Use animation decreased by [c/00A36C:{0}%]"
-	// UseAnimationDownGeneric: "    Use animation increased by [c/FF0000:{0}%]"
-	// UseSpeedUpGeneric: "    Use speed increased by [c/00A36C:{0}%]"
-	// UseSpeedDownGeneric: "    Use speed decreased by [c/FF0000:{0}%]"
-	// PickUpGeneric: "    Pickaxe power increased by [c/FF0000:{0}%]"
-	// PickDownGeneric: "    Pickaxe power decreased by [c/FF0000:{0}%]"
-	// CritUpGeneric: "    Critical strike chance increased by [c/00A36C:{0}%]"
-	// CritDownGeneric: "    Critical strike chance decreased by [c/FF0000:{0}%]"
-	// DefenseUpGeneric: "    Defense increased by {0}"
-	// DefenseDownGeneric: "    Defense decreased by {0}"
+	Modified: 此物品已被蚀光救赎修改
+	Modified2: 长按 {0} 以查看修改内容
+	DamageUpGeneric: "    伤害提高 [c/00A36C:{0}%]"
+	DamageDownGeneric: "    伤害降低 [c/FF0000:{0}%]"
+	ShootSpeedUpGeneric: "    射弹速度减少 [c/FF0000:{0}%]"
+	ShootSpeedDownGeneric: "    射弹速度提高 [c/00A36C:{0}%]"
+	UseTimeUpGeneric: "    使用时间减少 [c/00A36C:{0}%]"
+	UseTimeDownGeneric: "    使用时间增加 [c/FF0000:{0}%]"
+	UseAnimationUpGeneric: "    使用动画缩短 [c/00A36C:{0}%]"
+	UseAnimationDownGeneric: "    使用动画延长 [c/FF0000:{0}%]"
+	UseSpeedUpGeneric: "    使用速度提高 [c/00A36C:{0}%]"
+	UseSpeedDownGeneric: "    使用速度降低 [c/FF0000:{0}%]"
+	PickUpGeneric: "    镐力提高 [c/00A36C:{0}%]"
+	PickDownGeneric: "    镐力降低 [c/FF0000:{0}%]"
+	CritUpGeneric: "    暴击率提高 [c/00A36C:{0}%]"
+	CritDownGeneric: "    暴击率降低 [c/FF0000:{0}%]"
+	DefenseUpGeneric: "    防御增加 {0}"
+	DefenseDownGeneric: "    防御降低 {0}"
 }
 
 Mods: {
